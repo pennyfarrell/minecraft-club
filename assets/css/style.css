@@ -25,7 +25,7 @@ a {
     justify-content: space-between;
 }
 
-h1, h2 {
+h1 {
     font-family: 'Barlow', sans-serif;
     font-weight: 500;
     color: #f5deb3;
@@ -73,11 +73,17 @@ ul {
 
 /* hero image */
 
+#cover-text #cover-text h3 {
+    font-size: 250%;
+}
+
 #hero-outer {
     height: 600px;
     width: 100%;
     border: 1px solid #f5deb3;
     overflow: hidden;
+
+    position: relative;
 }
 
 #hero-image {
@@ -99,4 +105,21 @@ ul {
     to {
         transform: scale(1.1);
     }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: #503A26;
+    text-align: center;
+
+    width: 500px;
+    height: 100px;
+    
+    padding-top: 25px;
+    background-color: rgba(253, 223, 101, .7);
+    bottom: 25px;
+    right: 330px;
+    
+    position: absolute;
 }
