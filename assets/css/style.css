@@ -9,7 +9,8 @@
 body {
     font-family: 'Barlow', sans-serif;
     font-weight: 400;
-    color: #3F2D1C;
+    background-color: #3B5822;
+    color: wheat;
 }
 
 /* headings and logo */
@@ -17,7 +18,7 @@ body {
 h1, h2 {
     font-family: 'Barlow', sans-serif;
     font-weight: 500;
-    color: #3B5822;
+    color: wheat;
 }
 
 #logo {
@@ -61,6 +62,7 @@ h1, h2 {
 #hero-outer {
     height: 600px;
     width: 100%;
+    border: 1px solid wheat;
     overflow: hidden;
 }
 
@@ -72,7 +74,7 @@ h1, h2 {
     animation-name: hero-zoom;
     animation-duration: 7s;
     animation-fill-mode: forwards;
-}
+   }
 
 /* creates the level of zoom for hero image*/
 
