@@ -17,6 +17,11 @@ a {
     color: #f5deb3;
 }
 
+img {
+    height: 100%;
+    width:100%;
+    object-fit: contain;
+}
 /* headings and logo */
 
 .container {
@@ -141,12 +146,40 @@ ul {
     background-color: royalblue;
 }
 
+#div-1-left-image {
+    height: 400px;
+    width: 100%;
+    background-image: url(../images/sky-village.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .div-1-center {
     grid-area: 1 / 2 / 2 / 3;
     background-color: aqua;
 }
 
+#div-1-center-image {
+    height: 400px;
+    width: 100%;
+    background-image: url(../images/parkour.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .div-1-right {
     grid-area: 1 / 3 / 2 / 4;
     background-color: powderblue;
+    object-fit: scale-down;
+}
+
+#div-1-right-image {
+    height: 400px;
+    width: 100%;
+    background-image: url(../images/panda.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
