@@ -6,11 +6,24 @@
     border: none;
 }
 
+footer {
+    background-color: #f5deb3;
+    color: #3B5822;
+}
+
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
     font-family: 'Barlow', sans-serif;
     font-weight: 400;
     background-color: #3B5822;
     color: #f5deb3;
+}
+
+main {
+    flex-grow: 1;
 }
 
 a {
