@@ -47,10 +47,11 @@ h1 {
     font-family: 'Barlow', sans-serif;
     font-weight: 500;
     color: #f5deb3;
+    text-align: center;
 }
 
 #logo {
-    font-size: 220%;
+    font-size: 150%;
     margin-left: 20px;
 }
 
@@ -70,7 +71,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    line-height: 75px;
+    line-height: 1.25;
 }
 
 #menu li {
@@ -136,11 +137,11 @@ ul {
 #hero-text {
     text-align: center;
     position: absolute;
-    top: 85%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     
-    font-size: 160%;
+    font-size: 140%;
     font-family: 'Archivo Narrow', sans-serif;
     color: #503A26;
     text-shadow: 2px 2px #f5deb3;
@@ -148,16 +149,18 @@ ul {
     background-color: rgba(253, 223, 101, .7);
     }
 
+    /* about the club section */
+
 .parent-1 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 10px;
-    grid-row-gap: 0px;
+    grid-row-gap: 10px;
 }
 
 .div-1-left {
-    grid-area: 1 / 1 / 2 / 2;
+    grid-area: auto;
     background-color: royalblue;
 }
 
@@ -171,7 +174,7 @@ ul {
 }
 
 .div-1-center {
-    grid-area: 1 / 2 / 2 / 3;
+    grid-area: auto;
     background-color: aqua;
 }
 
@@ -185,7 +188,7 @@ ul {
 }
 
 .div-1-right {
-    grid-area: 1 / 3 / 2 / 4;
+    grid-area: auto;
     background-color: powderblue;
     object-fit: scale-down;
 }
