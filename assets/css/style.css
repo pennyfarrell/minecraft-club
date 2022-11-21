@@ -44,6 +44,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 8px 0 8px 0;
 }
 
 .container > img{
@@ -127,7 +128,7 @@ ul {
 #hero-image {
     height: 100%;
     width: 100%;
-    background-image: url(../images/hero-image-mushroom-village.PNG);
+    background-image: url(../images/hero-image-mushroom-village.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -184,7 +185,7 @@ ul {
 #div-1-left-image {
     height: 400px;
     width: 100%;
-    background-image: url(../images/sky-village.PNG);
+    background-image: url(../images/sky-village.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -198,7 +199,7 @@ ul {
 #div-1-center-image {
     height: 400px;
     width: 100%;
-    background-image: url(../images/parkour.PNG);
+    background-image: url(../images/parkour.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -213,7 +214,7 @@ ul {
 #div-1-right-image {
     height: 400px;
     width: 100%;
-    background-image: url(../images/panda.PNG);
+    background-image: url(../images/panda.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
