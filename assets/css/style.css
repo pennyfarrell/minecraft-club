@@ -30,17 +30,25 @@ a {
     color: #f5deb3;
 }
 
+/* headings and logo */
+
 img {
     height: 100%;
-    width:100%;
+    width: auto;
     object-fit: contain;
+    padding-right: 8px;
 }
-/* headings and logo */
+
 
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.container > img{
+    height: 100%;
+    width: 0;
 }
 
 h1 {
@@ -50,10 +58,19 @@ h1 {
     text-align: center;
 }
 
-#logo {
-    font-size: 150%;
-    margin-left: 20px;
+.logo-title{
+    display: flex;
+    flex-wrap: nowrap;
 }
+
+#logo {
+    height: 25%;
+    margin-left: 1rem;
+}
+
+#logo > img {
+    height: 1rem;
+    }
 
 ul {
     display: flex;
