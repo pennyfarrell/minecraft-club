@@ -169,6 +169,15 @@ ul {
 
     /* about the club section */
 
+#our-club-title {
+    font-size: 190%;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 400;
+    color: #f5deb3;
+    padding: 8px;
+    text-align: center;
+    }
+
 .parent-1 {
     display: grid;
     grid-template-columns: 1fr;
