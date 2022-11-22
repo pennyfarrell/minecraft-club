@@ -216,7 +216,9 @@ ul {
     border-radius: 33px;
     padding: 17px;
     border: #854d27 solid 2px;
+    margin-inline: auto;
 }
+
 .bubble-quote-one:after {
     content: '';
     position: absolute;
