@@ -61,7 +61,7 @@ h1 {
     font-weight: 500;
     color: #f5deb3;
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .container > h1 { 
@@ -185,7 +185,7 @@ ul {
     /* about the club section */
 
 #our-club-title {
-    font-size: 190%;
+    font-size: 125%;
     font-family: 'Archivo Narrow', sans-serif;
     font-weight: 400;
     color: #f5deb3;
