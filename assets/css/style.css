@@ -107,7 +107,7 @@ ul {
 }
 
 #menu li {
-    margin-right: 2px;
+    margin-right: 4px;
     list-style-type: none;
 }
 
@@ -131,7 +131,7 @@ ul {
 }
 
 #hero-outer {
-    height: 600px;
+    /* height: 600px; */
     width: 100%;
     border: 1px solid #f5deb3;
     overflow: hidden;
@@ -139,7 +139,7 @@ ul {
 }
 
 #hero-image {
-    height: 100vh;
+    height: 48vh;
     width: 100%;
     background-image: url(../images/hero-image-mushroom-village.webp);
     background-position: center;
