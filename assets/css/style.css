@@ -20,6 +20,7 @@ body {
     margin: 4px;
     font-family: 'Barlow', sans-serif;
     font-weight: 400;
+    font-size: 16px;
     background-color: #3B5822;
     color: #f5deb3;
 }
@@ -209,7 +210,7 @@ h3 {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    }
+}
 
 .div-1-left {
     grid-area: 1 / 1 / 2 / 3;
@@ -232,11 +233,11 @@ h3 {
     color: #6b3c1d;
     font-family: 'fira sans extra condensed';
     font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 14px;
+    /* line-height: 30px; */
     text-align: center;
-    width: 335px;
-    /* height: 125px; */
+    width: 200px;
+    height: 125px;
     border-radius: 33px;
     padding: 17px;
     border: #854d27 solid 2px;
@@ -294,11 +295,11 @@ h3 {
     color: #6b3c1d;
     font-family: 'fira sans extra condensed';
     font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 14px;
+    /* line-height: 30px; */
     text-align: center;
-    width: 335px;
-    /* height: 125px; */
+    width: 200px;
+    height: 125px;
     border-radius: 33px;
     padding: 17px;
     border: #854d27 solid 2px;
@@ -357,11 +358,11 @@ h3 {
     color: #6b3c1d;
     font-family: 'fira sans extra condensed';
     font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 14px;
+    /* line-height: 30px; */
     text-align: center;
-    width: 335px;
-    /* height: 125px; */
+    width: 200px;
+    height: 125px;
     border-radius: 33px;
     padding: 17px;
     border: #854d27 solid 2px;
