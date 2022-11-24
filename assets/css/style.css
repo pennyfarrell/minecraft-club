@@ -4,8 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    box-sizing: border-box;
-}
+    }
 
 footer {
     background-color: #f5deb3;
@@ -184,7 +183,7 @@ ul {
 
 #hero-text>h2,
 h3 {
-    width: 16rem;
+    width: 12rem;
 }
 
 /* about the club section */
@@ -401,7 +400,14 @@ h3 {
 }
 
 .video-tour {
+    height: 270px;
+    max-width: 270px;
+    width: 220px;
     display: block;
     align-items: center;
-    background-color: #f5deb3;
+    background-color: #f5deb3; */
+    }
+
+    .video-tour > img {
+        width: 270px;
     }
