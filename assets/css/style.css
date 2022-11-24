@@ -183,7 +183,7 @@ ul {
 
 #hero-text>h2,
 h3 {
-    width: 12rem;
+    width: 16rem;
 }
 
 /* about the club section */
@@ -401,13 +401,19 @@ h3 {
 
 .video-tour {
     height: 270px;
+    margin: 0 ;
     max-width: 270px;
     width: 220px;
     display: block;
     align-items: center;
+    align-content: center;
+    text-align: center;
     background-color: #f5deb3; */
     }
-
-    .video-tour > img {
-        width: 270px;
-    }
+/* 
+.video-tour {
+    width: 270px;
+    text-align: center;
+    justify-content: center;
+    padding: 4px 4px 4px 4px;
+    } */
