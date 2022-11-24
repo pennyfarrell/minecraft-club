@@ -48,7 +48,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 0 8px 0;
+    padding: 4px 1px 4px 1px;
 }
 
 /*.container > img {
@@ -63,7 +63,7 @@ h1 {
     font-weight: 500;
     color: #f5deb3;
     text-align: left;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .container>h1 {
@@ -91,13 +91,13 @@ h1 {
 ul {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 100%;
+    font-size: .7em;
 }
 
 #menu,
