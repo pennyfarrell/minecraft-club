@@ -184,7 +184,7 @@ ul {
 
 #hero-text>h2,
 h3 {
-    width: 19rem;
+    width: 16rem;
 }
 
 /* about the club section */
@@ -218,7 +218,7 @@ h3 {
 }
 
 #div-1-left-image {
-    height: 400px;
+    height:250px;
     width: 100%;
     background-image: url(../images/sky-village.webp);
     background-size: cover;
@@ -279,7 +279,7 @@ h3 {
 }
 
 #div-1-center-image {
-    height: 400px;
+    height: 250px;
     width: 100%;
     background-image: url(../images/parkour.webp);
     background-size: cover;
@@ -343,7 +343,7 @@ h3 {
 }
 
 #div-1-right-image {
-    height: 400px;
+    height: 250px;
     width: 100%;
     background-image: url(../images/panda.webp);
     background-size: cover;
@@ -398,4 +398,11 @@ h3 {
     left: -40px;
     margin-top: -15px;
     display: block;
+}
+
+.video-tour {
+    width: 320px;
+    height: auto;
+    display: block;
+    
 }
