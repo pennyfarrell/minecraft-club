@@ -399,18 +399,18 @@ h3 {
     display: block;
 }
 
-.video-tour {
-    height: 270px;
-    margin: 0 ;
-    max-width: 270px;
-    width: 220px;
+#video-tour {
+    /* height: 270px; */
+    margin: 1px ;
     display: block;
     align-items: center;
     align-content: center;
+    justify-items: center;
     text-align: center;
-    background-color: #f5deb3; */
+    background-color: #6b3c1d;
     }
-/* 
+
+    /* 
 .video-tour {
     width: 270px;
     text-align: center;
