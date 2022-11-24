@@ -401,8 +401,7 @@ h3 {
 }
 
 .video-tour {
-    width: 320px;
-    height: auto;
     display: block;
-    
-}
+    align-items: center;
+    background-color: #f5deb3;
+    }
