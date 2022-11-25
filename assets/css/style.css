@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    }
+}
 
 footer {
     background-color: #f5deb3;
@@ -199,13 +199,15 @@ h3 {
     outline-color: #6b3c1d;
     outline-width: 4px;
     margin: 6px 1px 6px 2px;
-    }
+}
 
 #our-club-title {
     font-size: 125%;
     font-family: 'Archivo Narrow', sans-serif;
-    font-weight: 400;
+    font-weight: bold;
+    letter-spacing: 0.8px;
     color: #f5deb3;
+    text-shadow: 1px 1px black;
     padding: 8px;
     text-align: center;
 }
@@ -230,7 +232,7 @@ h3 {
 }
 
 #div-1-left-image {
-    height:250px;
+    height: 250px;
     width: 100%;
     background-image: url(../images/sky-village.webp);
     background-size: cover;
@@ -238,7 +240,7 @@ h3 {
     background-position: center;
     border: 1px solid #f5deb3;
     color: #3B5822;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 1.4em;
     font-family: 'Archivo Narrow', sans-serif;
     color: #503A26;
@@ -306,7 +308,7 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid #f5deb3;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 1.4em;
     font-family: 'Archivo Narrow', sans-serif;
     color: #503A26;
@@ -377,13 +379,13 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid #f5deb3;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 1.4em;
     font-family: 'Archivo Narrow', sans-serif;
     color: #503A26;
     text-shadow: 1px 1px #f5deb3;
     text-align: center;
-    }
+}
 
 /* speech bubble three */
 
@@ -393,7 +395,7 @@ h3 {
     background: #f5deb3;
     color: #6b3c1d;
     font-family: 'fira sans extra condensed';
-    font-weight: 400;
+    font-weight: bold;
     font-size: 14px;
     /* line-height: 30px; */
     text-align: center;
@@ -446,12 +448,57 @@ h3 {
     margin: auto;
     text-align: center;
     padding-bottom: 8px;
-        }
+}
 
-    /* 
-.video-tour {
-    width: 270px;
+.club-times {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     text-align: center;
-    justify-content: center;
-    padding: 4px 4px 4px 4px;
-    } */
+    justify-content: space-around;
+    background-color: #503A26;
+    border: 1px solid #f5deb3;
+    padding: 15px 0 15px 0px;
+    text-align: center;
+    align-content: space-around;
+}
+
+#club-times-title {
+    font-weight: bolder;
+    font-size: 1.9em;
+    letter-spacing: 2px;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #f5deb3;
+    text-shadow: 2px 2px #3B5822;
+    text-align: center;
+    align-content: center;
+}
+
+.club-times h4 {
+    color: white;
+    border-bottom: 2px dotted #f5deb3;
+}
+
+footer {
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    background-color: #f5deb3;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #503A26;
+}
