@@ -223,6 +223,7 @@ h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    border: 1px solid #f5deb3;
 }
 
 .bubble-quote-one {
@@ -236,7 +237,7 @@ h3 {
     /* line-height: 30px; */
     text-align: center;
     width: 200px;
-    height: 125px;
+    height: auto;
     border-radius: 33px;
     padding: 17px;
     margin: 18px 18px 18px 18px;
@@ -284,6 +285,7 @@ h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    border: 1px solid #f5deb3;
 }
 
 /* speech bubble two */
@@ -299,7 +301,7 @@ h3 {
     /* line-height: 30px; */
     text-align: center;
     width: 200px;
-    height: 125px;
+    height: auto;
     border-radius: 33px;
     padding: 17px;
     margin: 18px 18px 18px 18px;
@@ -348,6 +350,7 @@ h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    border: 1px solid #f5deb3;
 }
 
 /* speech bubble three */
@@ -363,7 +366,7 @@ h3 {
     /* line-height: 30px; */
     text-align: center;
     width: 200px;
-    height: 125px;
+    height: auto;
     border-radius: 33px;
     padding: 17px;
     margin: 18px 18px 18px 18px;
