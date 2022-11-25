@@ -188,6 +188,19 @@ h3 {
 
 /* about the club section */
 
+#club-ethos {
+    /* text-align: justify; */
+    justify-content: center;
+    line-height: 26px;
+    font-weight: 400;
+    padding: 12px;
+    outline-style: ridge;
+    outline-color: #6b3c1d;
+    outline-width: 4px;
+    /* border-left: 6px solid #6b3c1d;
+    border-right: 6px solid #6b3c1d; */
+    }
+
 #our-club-title {
     font-size: 125%;
     font-family: 'Archivo Narrow', sans-serif;
