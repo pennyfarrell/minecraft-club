@@ -13,6 +13,7 @@ footer {
 
 body {
     min-height: 100vh;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: normal;
@@ -455,6 +456,7 @@ h3 {
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
+    text-shadow: 2px 2px black;
     justify-content: space-around;
     background-color: #503A26;
     border: 1px solid #f5deb3;
@@ -469,7 +471,7 @@ h3 {
     letter-spacing: 2px;
     font-family: 'Archivo Narrow', sans-serif;
     color: #f5deb3;
-    text-shadow: 2px 2px #3B5822;
+    text-shadow: 2px 2px black;
     text-align: center;
     align-content: center;
 }
@@ -477,13 +479,14 @@ h3 {
 .club-times h4 {
     color: white;
     border-bottom: 2px dotted #f5deb3;
+    text-shadow: 1px 1px black;
 }
 
 footer {
     width: 100%;
     background-color: #f5deb3;
     text-align: center;
-    }
+}
 
 .contact {
     padding: 0.6rem 0 0.6rem 0;
@@ -494,7 +497,7 @@ footer {
     list-style: none;
     display: block;
     line-height: 1.6rem;
-    }
+}
 
 .social-media {
     padding: 0rem 2rem 0px 2rem;
@@ -503,7 +506,8 @@ footer {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    }
+}
+
 /* 
 .social-media > li {
     display: inline;
@@ -515,3 +519,32 @@ footer {
     padding: 5%;
     color: #503A26;
 }
+
+.top {
+    --offset: 100px;
+    /* control when the button appear */
+    position: ;
+    bottom: 20px;
+    margin-right: 10px;
+    /* place-self: end; */
+    margin-top: calc(100vh + var(--offset));
+    width: 20px;
+    aspect-ratio: 1;
+    background: #3B5822;
+    border-radius: 6px;
+    font-size: 0;
+}
+
+.top:before {
+    content: "";
+    position: absolute;
+    inset: 30%;
+    transform: translateY(20%) rotate(-45deg);
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+}
+
+/* body > div {
+    margin-inline: max(3px,50% - 800px/2);
+  }
+
