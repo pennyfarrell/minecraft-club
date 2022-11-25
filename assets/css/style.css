@@ -22,6 +22,7 @@ body {
     font-size: 16px;
     background-color: #3B5822;
     color: #f5deb3;
+    margin: 1px 6px 1px 3px;
 }
 
 main {
@@ -197,8 +198,7 @@ h3 {
     outline-style: ridge;
     outline-color: #6b3c1d;
     outline-width: 4px;
-    /* border-left: 6px solid #6b3c1d;
-    border-right: 6px solid #6b3c1d; */
+    margin: 6px 1px 6px 2px;
     }
 
 #our-club-title {
@@ -237,6 +237,13 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid #f5deb3;
+    color: #3B5822;
+    font-weight: 400;
+    font-size: 1.4em;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #503A26;
+    text-shadow: 1px 1px #f5deb3;
+    text-align: center;
 }
 
 .bubble-quote-one {
@@ -299,6 +306,12 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid #f5deb3;
+    font-weight: 400;
+    font-size: 1.4em;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #503A26;
+    text-shadow: 1px 1px #f5deb3;
+    text-align: center;
 }
 
 /* speech bubble two */
@@ -364,7 +377,13 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid #f5deb3;
-}
+    font-weight: 400;
+    font-size: 1.4em;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #503A26;
+    text-shadow: 1px 1px #f5deb3;
+    text-align: center;
+    }
 
 /* speech bubble three */
 
