@@ -434,16 +434,19 @@ h3 {
     display: block;
 }
 
-#video-tour {
-    /* height: 270px; */
-    margin: 1px ;
-    display: block;
-    align-items: center;
-    align-content: center;
-    justify-items: center;
+#tour {
     text-align: center;
-    background-color: #6b3c1d;
-    }
+    justify-content: center;
+    border-top: 4px solid #503A26;
+    border-bottom: 4px solid #503A26;
+}
+
+#video-tour {
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 8px;
+        }
 
     /* 
 .video-tour {
