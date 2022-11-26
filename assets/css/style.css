@@ -80,15 +80,15 @@ h1 {
     flex-wrap: nowrap;
 }
 */
-
-#logo {
-    height: 25%;
+/* 
+.logo {
+    height: 20%;
     margin-left: 1rem;
-}
-
-#logo>img {
-    height: 1rem;
-}
+} */
+/* 
+.logo>img {
+    height: 0.6rem;
+} */
 
 ul {
     display: flex;
@@ -107,7 +107,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    line-height: 1.25;
+    line-height: 1.55;
 }
 
 #menu li {
@@ -121,7 +121,7 @@ ul {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #f5deb3;
+    border-bottom: 1px solid #503A26;
 }
 
 .active {
@@ -131,7 +131,7 @@ ul {
 /* hero image */
 
 #cover-text #cover-text h3 {
-    font-size: 250%;
+    font-size: 2em;
 }
 
 #hero-outer {
@@ -193,8 +193,8 @@ h3 {
 #club-ethos {
     /* text-align: justify; */
     justify-content: center;
-    line-height: 26px;
-    font-weight: 400;
+    line-height: 24px;
+    font-weight: bold;
     padding: 12px;
     outline-style: ridge;
     outline-color: #6b3c1d;
@@ -535,3 +535,12 @@ body>div {
     margin-inline: max(3px, 50% - 800px/2);
 }
 
+@media screen and (min-width: 768px) {
+    .container {
+        font-size: 150%;
+    }
+
+    #menu li {
+        padding: 
+    }
+} 
