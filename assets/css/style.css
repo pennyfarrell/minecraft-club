@@ -457,32 +457,39 @@ h3 {
     justify-content: space-around;
     background-color: #503A26;
     border: 1px solid #f5deb3;
-    padding: 15px 0 15px 0px;
+    padding: 8px 0 18px 0px;
     text-align: center;
     align-content: space-around;
 }
 
 #club-times-title {
     font-weight: bolder;
-    font-size: 1.9em;
-    letter-spacing: 2px;
+    font-size: 2.2em;
+    letter-spacing: 1px;
     font-family: 'Archivo Narrow', sans-serif;
     color: #f5deb3;
     text-shadow: 2px 2px black;
     text-align: center;
     align-content: center;
+    padding-bottom: 4px;
+    text-decoration-line: underline;
+    text-decoration-color: #3B5822;
+    text-decoration-thickness: 2px ;
 }
 
 .club-times h4 {
     color: white;
-    border-bottom: 2px dotted #f5deb3;
+    border-bottom: 4px dotted #f5deb3;
     text-shadow: 1px 1px black;
+    padding-bottom: 8px;
+    padding-top: 8px;
 }
 
 footer {
     width: 100%;
     background-color: #f5deb3;
     text-align: center;
+    padding-bottom: 5px;
 }
 
 .contact {
@@ -503,6 +510,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    font-size: 1.5rem;
 }
 
 /* 
@@ -511,7 +519,7 @@ footer {
 } */
 
 .social-media i {
-    font-size: 160%;
+    font-size: 1.5em%;
     margin: 10%;
     padding: 5%;
     color: #503A26;
