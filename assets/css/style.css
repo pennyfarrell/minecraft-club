@@ -183,7 +183,7 @@ h3 {
     /* text-align: justify; */
     justify-content: center;
     line-height: 24px;
-    font-weight: bold;
+    font-weight: 400;
     padding: 12px;
     outline-style: ridge;
     outline-color: #6b3c1d;
