@@ -552,8 +552,11 @@ body>div {
 
     #hero-text {
         top: 85%;
-        font-size: 140%;
         width: 40rem;
+    }
+
+    #hero-text h2 {
+        font-size: 200%;
     }
 
     #our-club-title {
@@ -599,5 +602,11 @@ body>div {
 
     .top {
         font-size: 110%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #hero-text * {
+        width: 57rem;
     }
 }
