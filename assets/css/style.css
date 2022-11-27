@@ -73,6 +73,7 @@ h1 {
     justify-content: center;
     padding-left: 4px;
 }
+
 /* 
 .logo>img {
     height: 0.9em;
@@ -168,14 +169,15 @@ ul {
     font-family: 'Archivo Narrow', sans-serif;
     color: #503A26;
     text-shadow: 2px 2px #f5deb3;
-
+    width: 18rem;
     background-color: rgba(253, 223, 101, .7);
 }
 
+/* 
 #hero-text>h2,
 h3 {
     width: 18rem;
-}
+} */
 
 /* about the club section */
 
@@ -463,7 +465,7 @@ h3 {
     padding-bottom: 4px;
     text-decoration-line: underline;
     text-decoration-color: #3B5822;
-    text-decoration-thickness: 2px ;
+    text-decoration-thickness: 4px;
 }
 
 .club-times h4 {
@@ -525,11 +527,77 @@ body>div {
 }
 
 @media screen and (min-width: 768px) {
+
+    main {
+        flex-grow: 1.5;
+    }
+
     .container {
         font-size: 150%;
+        padding: 8px;
+    }
+
+    #menu {
+        font-size: 1.2rem;
     }
 
     #menu li {
-        padding: 
+        padding: 4px;
     }
-} 
+
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #hero-text {
+        top: 85%;
+        font-size: 140%;
+        width: 40rem;
+    }
+
+    #our-club-title {
+        font-size: 200%;
+        text-shadow: 3px 3px #503A26;
+    }
+
+    #div-1-left-image,
+    #div-1-center-image,
+    #div-1-right-image {
+        height: 325px;
+        font-size: 2em;
+    }
+
+    .bubble-quote-one,
+    .bubble-quote-two,
+    .bubble-quote-three {
+        font-size: 18px;
+        width: 300px;
+    }
+
+    #club-times-title {
+        font-size: 3em;
+    }
+
+    h3 {
+        font-size: 170%;
+    }
+
+    h4 {
+        font-size: 170%;
+    }
+
+    .contact {
+        font-size: 150%;
+    }
+
+    .social-media {
+        font-size: 180%;
+        line-height: 170%;
+        justify-content: space-evenly;
+    }
+
+    .top {
+        font-size: 110%;
+    }
+}
