@@ -312,7 +312,6 @@ h3 {
 
 .bubble-quote-two {
     position: relative;
-    /* grid-area: 2 / 3 / 3 / 4; */
     background: #f5deb3;
     color: #6b3c1d;
     font-weight: 400;
@@ -381,13 +380,10 @@ h3 {
 
 .bubble-quote-three {
     position: relative;
-    /* grid-area: 3 / 3 / 4 / 4; */
     background: #f5deb3;
     color: #6b3c1d;
-    font-family: 'fira sans extra condensed';
     font-weight: 400;
     font-size: 14px;
-    /* line-height: 30px; */
     text-align: center;
     width: 200px;
     height: auto;
