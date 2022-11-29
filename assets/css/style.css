@@ -818,3 +818,20 @@ details[open] div {
     padding: .5em 1em;
     background-color: #503A26;
 }
+
+@media screen and (min-width: 768px) {
+    .faq-container details {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .faq-container details {
+        font-size: 2.2rem;
+        padding: 1px;
+    }
+
+    body > div {
+        margin-inline: auto;
+    }
+}
