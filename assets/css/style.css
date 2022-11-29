@@ -115,7 +115,7 @@ ul {
 
 #menu a:hover {
     border-bottom: 4px solid #6b3c1d;
-    }
+}
 
 .active {
     border-bottom: 2px solid #f5deb3;
@@ -316,7 +316,7 @@ h3 {
 }
 
 /* speech bubble two */
- 
+
 .bubble-quote-two {
     position: relative;
     background: #f5deb3;
@@ -341,7 +341,7 @@ h3 {
     z-index: 1;
     border-style: solid;
     border-width: 27px 0 0 27px;
-    border-color: transparent transparent transparent #f5deb3 ;
+    border-color: transparent transparent transparent #f5deb3;
     top: 50%;
     right: -26px;
     margin-top: -15px;
@@ -355,11 +355,11 @@ h3 {
     z-index: 1;
     border-style: solid;
     border-width: 27px 0 0 27px;
-    border-color: transparent transparent transparent #854d27 ;
+    border-color: transparent transparent transparent #854d27;
     top: 50%;
     right: -28px;
     margin-top: -15px;
-    } 
+}
 
 .div-1-right {
     background-color: powderblue;
@@ -762,4 +762,53 @@ body>div {
     .top {
         font-size: 130%;
     }
+}
+
+.faq-container h1 {
+    background-color: #3B5822;
+    color: #f5deb3;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 4px;
+    margin: 3px;
+    border: 2px solid #f5deb3;;
+}
+
+details {
+    background-color: #503A26;
+    color: #f5deb3;
+    font-size: 1.5rem;
+}
+
+summary {
+    background-color: #3B5822;
+    color: #f5deb3;
+    padding: .5em 1.3rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    transition: height 1s ease;
+    margin: 7px;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary:after {
+    content: "\002B";
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+details[open] summary:after {
+    content: "\00D7";
+}
+
+details[open] div {
+    padding: .5em 1em;
 }
