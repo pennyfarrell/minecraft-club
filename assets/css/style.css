@@ -776,7 +776,6 @@ body>div {
 }
 
 details {
-    background-color: #503A26;
     color: #f5deb3;
     font-size: 1.5rem;
 }
@@ -790,7 +789,7 @@ summary {
     justify-content: space-between;
     transition: height 1s ease;
     margin: 7px;
-}
+    }
 
 summary::-webkit-details-marker {
     display: none;
@@ -811,4 +810,5 @@ details[open] summary:after {
 
 details[open] div {
     padding: .5em 1em;
+    background-color: #503A26;
 }
