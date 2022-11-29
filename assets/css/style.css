@@ -768,7 +768,7 @@ body>div {
     background-color: #f5deb3;
     color: #3B5822;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     padding: 4px;
     margin: 3px;
@@ -825,8 +825,8 @@ details[open] div {
     }
 }
 
-@media screen and (min-width: 1440px) {
-    .faq-container details {
+@media screen and (min-width: 1024px) {
+    .faq-container > details {
         font-size: 2.2rem;
         padding: 1px;
     }
@@ -835,3 +835,12 @@ details[open] div {
         margin-inline: auto;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .faq-container h1 {
+        font-size: 3rem;
+    }
+    
+    .faq-container details {
+        font-size: 2.6rem;
+    }
