@@ -23,5 +23,16 @@
    "files.autoSave": "onFocusChange",
    "workbench.colorTheme": "Pleasure Contrast (rainglow)",
    "terminal.integrated.gpuAcceleration": "canvas",
-   "editor.defaultFormatter": "HookyQR.beautify"
+   "editor.defaultFormatter": "HookyQR.beautify",
+   "cSpell.words": [
+      "Abbie",
+      "eventyret",
+      "Fareham",
+      "formulahendry",
+      "Glowstone",
+      "Minecraft",
+      "Netherite",
+      "realise",
+      "webp"
+   ]
 }

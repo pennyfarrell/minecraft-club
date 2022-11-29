@@ -103,8 +103,9 @@ ul {
 }
 
 #menu li {
-    margin-right: 4px;
+    margin: 0px 2px 0px 2px;
     list-style-type: none;
+    padding-left: 2px;
 }
 
 #menu a {
@@ -113,11 +114,11 @@ ul {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #503A26;
-}
+    border-bottom: 4px solid #6b3c1d;
+    }
 
 .active {
-    border-bottom: 1px solid #f5deb3;
+    border-bottom: 2px solid #f5deb3;
 }
 
 /* hero image */
@@ -512,7 +513,7 @@ footer {
 } */
 
 .social-media i {
-    font-size: 1.5em%;
+    font-size: 1.5em;
     margin: 10%;
     padding: 5%;
     color: #503A26;
