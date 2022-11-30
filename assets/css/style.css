@@ -945,6 +945,7 @@ background-color: #503A26;
     padding: 22px;
     border-bottom: 2px dotted #503A26;
     margin-bottom: 2px;
+    background-color: #3B5822;
 }
 
 #form {
@@ -1045,11 +1046,13 @@ background-color: #503A26;
     #signup-hero-title {
         top: 40%;
         font-size: 2.6rem;
+        width: 360px;
     }
 
 
     .form-section h2 {
         font-size: 1.8rem;
+        padding-top: 4px;
         padding-bottom: 4px;
     }
 
@@ -1081,3 +1084,18 @@ background-color: #503A26;
         margin: 6px 0 0 0;
     }
 }
+
+
+@media screen and (min-width: 768px) {
+    
+    #signup-hero-title {
+        top: 40%;
+        font-size: 2.8rem;
+        width: 460px;
+    }
+
+    #signup-two {
+        width: 98%;
+        margin: 6px 0 0 1px;
+    }
+    
