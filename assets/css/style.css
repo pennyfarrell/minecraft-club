@@ -856,25 +856,27 @@ details[open] div {
     text-shadow: 2px 2px black;
     background-color: #503A26;
     margin: auto;
-    width: 70%;
-}
-/* 
-.form-section h3 {
-    font-size: 1.6rem;
+    border-top: 2px dotted #f5deb3;
+    width: 101%;
+    }
+
+#join label {
+    font-size: 1.2rem;
     text-align: center;
+    color: #f5deb3;
     text-shadow: 2px 2px black;
     background-color: #503A26;
-    margin: auto;
-    width: 70%;
-} */
+    }
 
 .form-section h4 {
     font-size: 1.2rem;
+    font-weight: 400;
     text-align: center;
     text-shadow: 2px 2px black;
-    background-color: #3B5822
+    background-color: #3B5822;
     margin: auto;
     width: 70%;
+    padding: 2px;
 }
 
 #signup-hero {
@@ -942,8 +944,9 @@ details[open] div {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    padding: 6px;
-}
+    padding: 6px 6px 12px 6px;
+    width: 101%;
+    }
 
 #form * {
     padding: 8px;
@@ -962,6 +965,19 @@ details[open] div {
 .text-input:hover {
     border-color: #503A26;
 }
+
+#join {
+    background-color: #503A26;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    line-height: 30px;
+    width: 101%;
+    }
 
 .join-button {
     margin-top: 20px;
@@ -991,4 +1007,8 @@ details[open] div {
     text-shadow: 2px 2px black;
     /* width: 80%; */
     background-color: #f5deb3;
+}
+
+#hashtags {
+    margin: 4px 0 12px 0;
 }
