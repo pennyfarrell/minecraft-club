@@ -958,7 +958,8 @@ background-color: #503A26;
     padding: 6px 6px 12px 6px;
     width: 101%;
 }
-#form > label {
+
+#form>label {
     flex: 50%;
 }
 
@@ -993,8 +994,8 @@ background-color: #503A26;
     width: 101%;
 }
 
-#join > label {
- flex: 50%;
+#join>label {
+    flex: 50%;
 }
 
 .join-button {
@@ -1061,8 +1062,6 @@ background-color: #503A26;
     }
 
     #form {
-        flex-direction: row;
-        flex-wrap: wrap;
         width: 80%;
         font-size: 1.4rem;
         text-align: end;
@@ -1077,6 +1076,7 @@ background-color: #503A26;
 
     #join label {
         font-size: 1.4rem;
+        line-height: 36px;
     }
 
     #signup-two {
@@ -1086,16 +1086,36 @@ background-color: #503A26;
 }
 
 
-@media screen and (min-width: 768px) {
-    
+@media screen and (min-width: 1024px) {
+
     #signup-hero-title {
         top: 40%;
-        font-size: 2.8rem;
+        font-size: 3.2rem;
         width: 460px;
     }
 
-    #signup-two {
-        width: 98%;
-        margin: 6px 0 0 1px;
+    #form {
+        width: 70%;
+        font-size: 1.8rem;
+        text-align: end;
+    }
+
+    .form-section h4 {
+        font-size: 1.9rem;
+        width: 100%;
     }
     
+    .form-section h2 {
+        font-size: 2.2rem;
+    }
+    #join label {
+        font-size: 1.8rem;
+        line-height: 40px;
+    }
+
+    #signup-two {
+        width: auto;
+        margin: 6px 0 0 3px;
+    }
+
+}
