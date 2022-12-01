@@ -720,10 +720,10 @@ body>div {
         width: 0;
         z-index: 1;
         border-style: solid;
-        border-width: 27px 0 0 27px;
+        border-width: 32px 0 0 32px;
         border-color: transparent transparent transparent #f5deb3;
         top: 50%;
-        left: 388px;
+        right: -31px;
         margin-top: -13px;
     }
 
@@ -731,14 +731,14 @@ body>div {
         content: '';
         position: absolute;
         width: 0;
-        z-index: 0;
+        z-index: 1;
         border-style: solid;
-        border-width: 0 0 32px 38px;
+        border-width: 32px 0 0 32px;
         border-color: transparent transparent transparent #854d27;
         top: 50%;
-        left: px;
+        right: -32px;
         margin-top: -15px;
-        display: none;
+        display: block;
     }
 
     video {
