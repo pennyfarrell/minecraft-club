@@ -1039,6 +1039,17 @@ background-color: #503A26;
     }
 }
 
+
+@media screen and (min-width: 425px) {
+    #form {
+        width: 99%;
+    }
+
+    #form > label {
+        padding: 7px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     #signup-hero {
         height: 38vh;
@@ -1070,7 +1081,7 @@ background-color: #503A26;
     #join {
         margin: auto;
         padding: 4px;
-        width: 50%;
+        width: 70%;
 
     }
 
@@ -1095,7 +1106,7 @@ background-color: #503A26;
     }
 
     #form {
-        width: 70%;
+        /* width: 70%; */
         font-size: 1.8rem;
         text-align: end;
     }
@@ -1117,5 +1128,10 @@ background-color: #503A26;
         width: auto;
         margin: 6px 0 0 3px;
     }
-
 }
+
+@media screen and (min-width: 1440px) {
+    #form {width: 70%;
+}
+}
+
