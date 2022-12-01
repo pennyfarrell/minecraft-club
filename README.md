@@ -87,8 +87,12 @@ Stammer Minecraft Club has three pages. All pages can be easily accessed through
       The chosen fonts were downloaded from [Google Fonts](https://fonts.google.com/). "Barlow", weight Regular 400 and Medium 500 is used for the headings. "Fira Sans Extra Condensed", weight 400, is used for the quotations. Both fonts are fun and playful yet easily legible.
 
  * ### Color Scheme
-      The chosen color scheme reflects the colors used in Minecraft Bedrock and are the colours most often used for earth blocks. The light font  was selected for contrast against the dark green and dark brown. The colours were picked from Minecraft images using Canva. The shades and contrasts were compared and selected for optimum contrast using [WAVE (Web Accessibility Evaluation Tool)](https://wave.webaim.org/).
+      The chosen color scheme reflects the colors used in Minecraft Bedrock and are the colours most often used for earth blocks. The light font  was selected for contrast against the dark green and dark brown. The colours were picked from Minecraft images using Canva. The shades and contrasts were compared and selected for optimum contrast using [WebAIM (Web Accessibility In Mind)](https://webaim.org/resources/contrastchecker/).
 
-![Canva Colour Palette image]()
+![Canva Colour Palette image](assets/readme-images/color-palette.PNG)
+
+![WebAIM Color Contrast Checker - dark brown background](assets/readme-images/WEB-AIM-contrast-check-dark-brown.PNG)
+
+![WebAIM Color Contrast Checker - dark green background](assets/readme-images/WEB-AIM-contrast-check-dark-green.PNG)
 
 [Back to top](#contents)
