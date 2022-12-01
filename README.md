@@ -8,6 +8,10 @@ The website will cover information about the club ethos which promotes authentic
 
 The site will have a high visual content with images and a video of designs created by current club members to demonstrate the wonderful creations that the club members built and portray a positive impression of creativity and fun within the club sessions.  
 
+<a href="https://pennyfarrell.github.io/minecraft-club/" target="_blank" rel="noopener">Stammer Out Loud and Build!</a>
+
+![Stammer Minecraft Club responsive design](assets/readme-images/amiresponsive-mockup.PNG)
+
 ## Features
 
 ### Existing Features
@@ -71,3 +75,20 @@ Lastly, I added an extra Thank you page where a user is taken after filling in t
 
 [Back to top](#contents)
 
+## Site Structure
+
+Stammer Minecraft Club has three pages. All pages can be easily accessed through the navigation menu in the header section. The [Landing page](index.html), the [FAQ](faq.html) page and finally the [Sign Up](signup.html) page.
+
+[Back to top](#contents)
+
+## Design Choices
+
+ * ### Typography
+      The chosen fonts were downloaded from [Google Fonts](https://fonts.google.com/). "Barlow", weight Regular 400 and Medium 500 is used for the headings. "Fira Sans Extra Condensed", weight 400, is used for the quotations. Both fonts are fun and playful yet easily legible.
+
+ * ### Color Scheme
+      The chosen color scheme reflects the colors used in Minecraft Bedrock and are the colours most often used for earth blocks. The light font  was selected for contrast against the dark green and dark brown. The colours were picked from Minecraft images using Canva. The shades and contrasts were compared and selected for optimum contrast using [WAVE (Web Accessibility Evaluation Tool)](https://wave.webaim.org/).
+
+![Canva Colour Palette image]()
+
+[Back to top](#contents)
