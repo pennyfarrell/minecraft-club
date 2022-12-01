@@ -861,7 +861,7 @@ details[open] div {
     background-color: #503A26;
     margin: auto;
     border-top: 2px dotted #f5deb3;
-    width: 101%;
+    width: 100%;
 }
 
 
@@ -956,7 +956,7 @@ background-color: #503A26;
     align-items: center;
     justify-content: space-around;
     padding: 6px 6px 12px 6px;
-    width: 101%;
+    width: 100%;
 }
 
 #form>label {
@@ -991,7 +991,7 @@ background-color: #503A26;
     justify-content: space-between;
     padding: 0 20px;
     line-height: 30px;
-    width: 101%;
+    width: 100%;
 }
 
 #join>label {
