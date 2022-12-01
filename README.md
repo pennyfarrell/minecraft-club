@@ -54,3 +54,20 @@ The site will have a high visual content with images and a video of designs crea
 # User Experience
 
 ## Wireframes
+
+![Mobile wireframe page 1 - top]assets/readme-images/wireframe-mobile-top.PNG
+
+![Mobile wireframe page 1 - top]assets/readme-images/wireframe-mobile-bottom.PNG
+
+The wireframes were created on paper to sketch out ideas and then narrowed down to a first design in [Balsamiq](https://balsamiq.com). 
+
+Originally, I designed desktop first but after advice from my tutor, I changed to coding mobile-first. I then created a new wireframe for mobiles. This approach later led to simpler media queries. 
+
+On the home page, I added the timetable with the age groups so that it was very clear who the target audience is. I added an FAQ page to my second page with questions and answers directed at parents/guardians as well as young people. 
+
+I left out the gallery because I decide to incoroproate the images throughout the website to give it a sense of fun, appeal to the young people and immerse the user in a Minecraft-like environment. 
+
+Lastly, I added an extra Thank you page where a user is taken after filling in the form to create a more pleasant user experience.
+
+[Back to top](#contents)
+
