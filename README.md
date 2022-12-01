@@ -67,9 +67,11 @@ The wireframes were created on paper to sketch out ideas and then narrowed down 
 
 Originally, I designed desktop first but after advice from my tutor, I changed to coding mobile-first. I then created a new wireframe for mobiles. This approach later led to simpler media queries. 
 
-On the home page, I added the timetable with the age groups so that it was very clear who the target audience is. I added an FAQ page to my second page with questions and answers directed at parents/guardians as well as young people. 
+I originally had the timetable on page two with a gallery but I moved the timetable with the age groups to the home page so that it was very clear who the target audience for the club is. As there is a lot of content on the home page, I added a 'back-to-top' button to make it easier for the user to navigate back to the nav bar. 
 
-I left out the gallery because I decide to incoroproate the images throughout the website to give it a sense of fun, appeal to the young people and immerse the user in a Minecraft-like environment. 
+I added an FAQ page to my second page with questions and answers directed at both parents/guardians as well as young people, to reflect the different needs of each user type.
+
+I left out the gallery because I decide to incorporate the images throughout the website to give it a sense of fun, appeal to the young people, and immerse the user in a Minecraft-like environment throughout the whole site. 
 
 Lastly, I added an extra Thank you page where a user is taken after filling in the form to create a more pleasant user experience.
 
@@ -96,3 +98,49 @@ Stammer Minecraft Club has three pages. All pages can be easily accessed through
 ![WebAIM Color Contrast Checker - dark green background](assets/readme-images/WEB-AIM-contrast-check-dark-green.PNG)
 
 [Back to top](#contents)
+
+# Features
+
+Stammer Minecraft Club is meant to be fun, playful and welcoming with appeal to both young people and their parents/guardians. The NNavigation bar makes finding the necessary information simple. All hypertext links open in a new page. The sign up form invites the parents/guardians to sign up to the relevant group. -->
+
+## Home Page
+
+The Home Page has information and testimonials which illustrate the experience of club members to give first-hand descriptions of the real experience of being a club member. There are images showing the creations built in Minecraft during club sessions. There is a video narrated by a club member who stammers which aims to reassure potential new members that it really is ok to stammer in the club and to hear the voice of a real member. There is a description of the club groups which shows the age range that can attend and the schedule of sessions. The images are positioned to slightly reveal the next image and entice the user to scroll down the entire page.
+
+![Home Page - section 1](assets/readme-images/home-page-section-one.PNG)
+
+![Home Page - section 2](assets/readme-images/home-page-section-two.PNG)
+
+![Home Page - section 3](assets/readme-images/home-page-section-three.PNG)
+
+![Home Page - section 4](assets/readme-images/home-page-section-four.PNG)
+
+### Navigation Menu
+
+![Navigation Menu](assets/readme-images/nav-bar.PNG)
+
+* Navigation Bar is present on all three pages to make navigation of the website easy and quick. It containes links to Home, FAQ and Sign Up pages. Its design is consistent and identical on all of the pages. This feature enables the users to navigate from page to page without having to use the "back" button of the browser.
+
+* The main logo is also clickable and takes the user back to the home page.
+
+[Back to top](#contents)
+
+### Hero Image
+
+![Hero Image](assets/images/hero-image-mushroom-village.webp)
+
+The landing page includes a large dynamic image from the Minecraft world showing a colourful and magical mushroom village which catches the eye of the user.
+
+[Back to top](#contents)
+
+### Reasons Section
+
+![Testimonials Speech Bubble One](assets/readme-images/testimonial-speech-bubble-one.PNG)
+
+![Testimonials Speech Bubble One](assets/readme-images/testimonial-speech-bubble-two.PNG)
+
+![Testimonials Speech Bubble One](assets/readme-images/testimonial-speech-bubble-three.PNG)
+
+This section introduces three reasons for joining the club represented by peers of potential club members. The aim is to get new members interested in joining the club and to convey the value of gaming with other young people who stammer by their peers. the quotes help make the information relevant and relatable to young people visiting the website and demonstrates the value of the club to prospective parents/guardians.
+[Back to top](#contents)
+
