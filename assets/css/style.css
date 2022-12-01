@@ -960,26 +960,34 @@ background-color: #503A26;
 
 input[type=text] {
     width: 60%;
-  padding: 12px 20px;
-  margin: 4px 0;
-  box-sizing: border-box;
+    padding: 12px 20px;
+    margin: 4px 0;
+    box-sizing: border-box;
 }
 
 input[type=email] {
     width: 60%;
-  padding: 12px 20px;
-  margin: 4px 0;
-  box-sizing: border-box;
+    padding: 12px 20px;
+    margin: 4px 0;
+    box-sizing: border-box;
 }
+
+/* 
+input[label] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    box-sizing: border-box;
+} */
 
 /* 
 #form>label {
     flex: 50%;
 } */
-
+/* 
 #form * {
-    /* padding: 8px; */
-}
+padding: 8px;
+} */
 
 .text-input {
     background: transparent;
@@ -995,25 +1003,21 @@ input[type=email] {
     border-color: #503A26;
 }
 
-#join {
+.join {
     /* flex: 50%; */
+    box-sizing: border-box;
     background-color: #503A26;
+    padding: 0 14px;
+    line-height: 30px;
+    /* margin: auto; */
     /* display: flex;
     flex-direction: row;
     flex-wrap: wrap; */
-    align-items: center;
+    /* align-items: center;
     text-align: start;
-    justify-content: space-between;
-    padding: 4px;
-    line-height: 30px;
-    margin: auto;
+    justify-content: space-between; */
     /* width: 100%; */
 }
-
-/* 
-#join>label {
-    flex: 50%;
-} */
 
 .join-button {
     margin-top: 20px;
@@ -1096,27 +1100,28 @@ input[type=email] {
         text-align: end;
     }
 
-    /* /* 
-    #join {
-        margin: auto;
-        /* padding: 4px; */
-    width: 70%;
-    */
-}
+    .join {
+        box-sizing: border-box;
+        font-size: 1.6rem;
+    }
 
-*/
-/* 
-    #join > label {
+    .join > * {
+        box-sizing: border-box;
+        align-content: center;
+        }
+
+    /* 
+    .join > label {
         display: flex;
         flex-basis: 50%;
         font-size: 1.4rem;
         line-height: 36px;
     } */
 
-#signup-two {
-    width: 98%;
-    /* margin: 6px 0 0 0; */
-}
+    #signup-two {
+        width: 98%;
+        /* margin: 6px 0 0 0; */
+    }
 }
 
 
@@ -1143,7 +1148,7 @@ input[type=email] {
         font-size: 2.2rem;
     }
 
-    #join label {
+    .join label {
         font-size: 1.8rem;
         line-height: 40px;
     }
