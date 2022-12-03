@@ -998,6 +998,12 @@ padding: 8px;
     border-color: #503A26;
 }
 
+.join-align {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .join {
     /* flex: 50%; */
     box-sizing: border-box;
