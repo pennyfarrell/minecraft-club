@@ -36,7 +36,7 @@ a {
 
 /* headings and logo */
 
-img {
+.logo > img {
     height: 100%;
     width: auto;
     object-fit: contain;
@@ -46,10 +46,20 @@ img {
     max-width: 100%;
 }
 
+
+img {
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    /* padding-right: 8px;
+    padding-left: 8px; */
+    max-inline-size: 100%;
+    }
+
 .container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 8px;
 }
 
@@ -886,18 +896,27 @@ background-color: #503A26;
     width: 70%;
     /* padding: 2px; */
 }
-/* 
-#signup-hero {
+
+.signup-hero-img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    object-fit: contain;
+}
+
+/*
     display: flex;
-    flex-direction: row; */
-    /* height: 24vh;
-    /* width: 100%; */
-    /* background-image: url(../images/reception.webp);
+    flex-direction: row;
+     height: 24vh;
+    width: 100%;
+    background-image: url(../images/reception.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative; */
-}
+    position: relative;
+    }
+*/
+
 
 #signup-hero-title {
     width: 50%;
