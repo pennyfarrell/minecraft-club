@@ -924,8 +924,7 @@ background-color: #503A26;
     width: auto;
     border: 2px solid #f5deb3;
     object-fit: contain;
-    padding: 0px 0px 0 0px;
-    margin: 6px 0 6px 0;
+    margin: auto;
 }
 
 .signup-form {
@@ -1047,6 +1046,18 @@ padding: 8px;
     color: #3B5822;
 }
 
+table, th, td {
+    border: 1px solid #503A26;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+  }
+  
+  th, td {
+    background-color: #f5deb3;
+    color: #3b5822;
+  }
+
 .build-title>h2 {
     text-align: center;
     position: absolute;
@@ -1063,7 +1074,8 @@ padding: 8px;
 
 #hashtags {
     background-color: #3b5822;
-    margin: 4px 0 12px 0;
+    text-align: center;
+    margin: auto;
 }
 
 /* 
