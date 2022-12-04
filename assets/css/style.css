@@ -491,6 +491,10 @@ footer {
     list-style: none;
     display: block;
     line-height: 1.6rem;
+    }
+
+.contact a {
+    color: #3B5822;
 }
 
 .social-media {
