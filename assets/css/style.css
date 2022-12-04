@@ -49,7 +49,7 @@ img {
 .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 8px;
 }
 
@@ -496,7 +496,7 @@ footer {
     list-style: none;
     display: block;
     line-height: 1.6rem;
-    }
+}
 
 .contact a {
     color: #3B5822;
@@ -886,13 +886,13 @@ background-color: #503A26;
     width: 70%;
     /* padding: 2px; */
 }
-
+/* 
 #signup-hero {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; */
     /* height: 24vh;
     /* width: 100%; */
-   /* background-image: url(../images/reception.webp);
+    /* background-image: url(../images/reception.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1045,17 +1045,20 @@ table {
     width: 100%;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid #503A26;
     border-collapse: collapse;
     text-align: center;
     margin: auto;
-  }
-  
-  th, td {
+}
+
+th,
+td {
     background-color: #f5deb3;
     color: #3b5822;
-  }
+}
 
 .build-title>h2 {
     text-align: center;
@@ -1077,23 +1080,19 @@ table, th, td {
     margin: auto;
 }
 
-/* 
 @media screen and (min-width: 375px) {
-    #join {
-        width: 92%;
-    }
-} */
-
-/* 
-@media screen and (min-width: 425px) {
-    #form {
-        width: 99%;
-    } */
-
-    #form>label {
-        /* padding: 7px; */
+    #signup-hero-title {
+        top: 31%;
     }
 }
+
+@media screen and (min-width: 425px) {
+    #signup-hero-title {
+        font-size: 2.4rem;
+        top: 34%
+    }
+}
+
 
 @media screen and (min-width: 768px) {
     #signup-hero {
@@ -1133,10 +1132,10 @@ table, th, td {
         font-size: 1.6rem;
     }
 
-    .join > * {
+    .join>* {
         box-sizing: border-box;
         align-content: center;
-        }
+    }
 
     /* 
     .join > label {
@@ -1164,16 +1163,17 @@ table, th, td {
     #form {
         /* width: 70%; */
         font-size: 1.8rem;
-      }
+    }
 
-      input[type=text] {
+    input[type=text] {
         width: 50%;
-      }
-      input[type=email] {
-        width: 50%;
-      }
+    }
 
-    .form-section > h2 {
+    input[type=email] {
+        width: 50%;
+    }
+
+    .form-section>h2 {
         font-size: 2.2rem;
     }
 
