@@ -951,17 +951,18 @@ background-color: #503A26;
     justify-content: space-around;
     padding: 4px;
     line-height: 28px;
+    margin: 0 auto;
 }
 
 input[type=text] {
-    width: 60%;
+    width: 65%;
     padding: 12px 20px;
-    margin: 4px 0;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
 input[type=email] {
-    width: 60%;
+    width: 65%;
     padding: 12px 20px;
     margin: 4px 0;
     box-sizing: border-box;
@@ -1002,6 +1003,7 @@ padding: 8px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .join {
