@@ -431,6 +431,11 @@ h3 {
     border-bottom: 4px solid #503A26;
 }
 
+video {
+    width: 100%;
+    height: auto;
+}
+
 #video-tour {
     /* height: 450px; */
     margin: auto;
@@ -603,10 +608,10 @@ body>div {
     }
 
     video {
-        width: 570px;
-        height: 380px;
-        padding-top: 0;
-        padding-bottom: 34px;
+        width: 100%;
+        height: auto;
+        /* padding-top: 0;
+        padding-bottom: 34px; */
     }
 
     #video-tour {
@@ -891,13 +896,13 @@ background-color: #503A26;
 #signup-hero {
     display: flex;
     flex-direction: row;
-    height: 24vh;
+    /* height: 24vh;
     /* width: 100%; */
-    background-image: url(../images/reception.webp);
+   /* background-image: url(../images/reception.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    position: relative; */
 }
 
 #signup-hero-title {
@@ -1068,11 +1073,11 @@ padding: 8px;
     }
 } */
 
-
+/* 
 @media screen and (min-width: 425px) {
     #form {
         width: 99%;
-    }
+    } */
 
     #form>label {
         /* padding: 7px; */
@@ -1143,8 +1148,15 @@ padding: 8px;
     #form {
         /* width: 70%; */
         font-size: 1.8rem;
-        text-align: end;
-    }
+      }
+
+      input[type=text] {
+        width: 50%;
+      }
+      input[type=email] {
+        width: 50%;
+      }
+
 
     .form-section h4 {
         font-size: 1.9rem;
