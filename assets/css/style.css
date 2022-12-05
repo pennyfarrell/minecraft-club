@@ -27,7 +27,7 @@ body {
 
 /* headings and logo */
 
-.logo > img {
+.logo>img {
     height: 100%;
     width: auto;
     object-fit: contain;
@@ -41,8 +41,8 @@ img {
     height: auto;
     width: 100%;
     object-fit: contain;
-    /* max-inline-size: 100%; */
-    }
+    max-inline-size: 100%;
+}
 
 .container {
     display: flex;
@@ -64,9 +64,9 @@ h1 {
     flex-wrap: nowrap;
     justify-content: center;
     padding-left: 4px;
-    }
+}
 
-.container > a {
+.container>a {
     text-decoration: #3B5822;
 }
 
@@ -835,9 +835,9 @@ background-color: #503A26;
 }
 
 #signup-img {
-background-color: #3B5822;
-display: block;
-text-align: center;
+    background-color: #3B5822;
+    display: block;
+    text-align: center;
 }
 
 /*
@@ -905,8 +905,7 @@ text-align: center;
     align-items: center;
     justify-content: space-around;
     padding: 4px;
-    line-height: 2.2rem
-    margin: 0 auto;
+    line-height: 2.2rem margin: 0 auto;
     font-size: 1.3rem;
 }
 
@@ -924,7 +923,7 @@ input[type=email] {
     box-sizing: border-box;
 }
 
- 
+
 input[label] {
     width: 60%;
     padding: 12px 20px;
@@ -964,10 +963,12 @@ padding: 8px;
 
 .join {
     /* flex: 50%; */
+    font-size: 1.3rem;
+    text-align: inherit;
     box-sizing: border-box;
     background-color: #503A26;
     padding: 10px 0;
-    line-height: 30px;
+    line-height: 1.8rem;
 }
 
 .join-button {
@@ -986,11 +987,6 @@ padding: 8px;
     color: #3B5822;
 }
 
-/* #table {
-    display: flex;
-    flex-direction: column;
-} */
-
 table {
     width: 100%;
 }
@@ -1002,6 +998,7 @@ td {
     border-collapse: collapse;
     text-align: center;
     margin: auto;
+    font-size: 1rem;
 }
 
 th,
@@ -1029,6 +1026,8 @@ td {
     text-align: center;
     margin: auto;
     padding: 0 0 4px 0;
+    line-height: 1.3rem;
+    font-weight: 400;
 }
 
 @media screen and (min-width: 375px) {
@@ -1042,6 +1041,10 @@ td {
         font-size: 2.4rem;
         top: 34%
     }
+    
+    table, th, td {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -1051,7 +1054,7 @@ td {
         margin: 0 auto;
         box-sizing: border-box;
     }
-     
+
     input[type=email] {
         width: 50%;
         padding: 12px 20px;
@@ -1089,21 +1092,23 @@ td {
 
     .join {
         box-sizing: border-box;
+        font-size: 2rem;
+        text-align: inherit;
+    }
+
+    table, th, td {
         font-size: 1.6rem;
+        table-layout: fixed;
+        width: 99%;
     }
+}
 
-    .join>* {
-        box-sizing: border-box;
-        align-content: center;
-    }
+.join>* {
+    box-sizing: border-box;
+    align-content: center;
+}
 
-
-    table {
-        width: 85%;
-        font-size: 2em;
-    }
-    
-    /* 
+/* 
     .join > label {
         display: flex;
         flex-basis: 50%;
@@ -1111,9 +1116,6 @@ td {
         line-height: 36px;
     } */
 
-    #signup-two {
-        width: 98%;
-    }
 }
 
 
@@ -1122,8 +1124,8 @@ td {
     #signup-img {
         background-color: #3B5822;
         width: 100%;
-        object-fit: fill;
-        }
+        object-fit: contain;
+    }
 
     #signup-hero-title {
         top: 40%;
@@ -1160,6 +1162,7 @@ td {
 
     #signup-two {
         width: auto;
+        object-fit: contain;
     }
 }
 
