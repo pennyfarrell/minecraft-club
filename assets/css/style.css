@@ -742,7 +742,7 @@ details {
 summary {
     background-color: #3B5822;
     color: #f5deb3;
-    padding: .5em 1.3rem;
+    padding: .5em 0.6rem;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -833,13 +833,10 @@ background-color: #503A26;
     width: 70%;
     /* padding: 2px; */
 }
-/* 
+
 #signup-img {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    margin: auto;
-} */
+background-color: #3B5822;
+}
 
 /*
     display: flex;
@@ -866,7 +863,6 @@ background-color: #503A26;
     font-family: 'Archivo Narrow', sans-serif;
     color: #f5deb3;
     text-shadow: 2px 2px black;
-    /* width: 80%; */
     background-color: #503A26;
 }
 
@@ -896,9 +892,7 @@ background-color: #503A26;
 #form-info {
     font-style: normal;
     font-weight: 400;
-    /* padding: 22px; */
-    border-bottom: 2px dotted #503A26;
-    /* margin-bottom: 2px; */
+    margin-bottom: 2px;
     background-color: #3B5822;
 }
 
@@ -909,8 +903,9 @@ background-color: #503A26;
     align-items: center;
     justify-content: space-around;
     padding: 4px;
-    line-height: 28px;
+    line-height: 2.2rem
     margin: 0 auto;
+    font-size: 1.3rem;
 }
 
 input[type=text] {
@@ -927,13 +922,13 @@ input[type=email] {
     box-sizing: border-box;
 }
 
-/* 
+ 
 input[label] {
     width: 60%;
     padding: 12px 20px;
     margin: 4px 0;
     box-sizing: border-box;
-} */
+}
 
 /* 
 #form>label {
@@ -989,10 +984,10 @@ padding: 8px;
     color: #3B5822;
 }
 
-#table {
+/* #table {
     display: flex;
     flex-direction: column;
-}
+} */
 
 table {
     width: 100%;
@@ -1031,6 +1026,7 @@ td {
     background-color: #3b5822;
     text-align: center;
     margin: auto;
+    padding: 0 0 4px 0;
 }
 
 @media screen and (min-width: 375px) {
@@ -1063,7 +1059,7 @@ td {
 
     #signup-hero-title {
         top: 53%;
-        font-size: 2.6rem;
+        font-size: 3.4rem;
         width: 360px;
     }
 
@@ -1075,16 +1071,17 @@ td {
     }
 
     .form-section h3 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+        padding: 10px;
+        width: 80%
     }
 
     .form-section h4 {
         font-size: 1.5rem;
     }
 
-
     #form {
-        font-size: 1.4rem;
+        font-size: 1.8em;
         text-align: end;
     }
 
@@ -1098,6 +1095,12 @@ td {
         align-content: center;
     }
 
+
+    table {
+        width: 85%;
+        font-size: 2em;
+    }
+    
     /* 
     .join > label {
         display: flex;
@@ -1122,6 +1125,7 @@ td {
 
     #form {
         font-size: 1.8rem;
+        line-height: 2.2rem;
     }
 
     input[type=text] {
@@ -1153,6 +1157,7 @@ td {
 
 @media screen and (min-width: 1440px) {
     #form {
-        width: 70%;
+        font-size: 2.4rem;
+        line-height: 2.4rem;
     }
 }
