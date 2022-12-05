@@ -475,7 +475,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
 }
 
 .social-media i {
@@ -581,7 +581,7 @@ body>div {
     }
 
     .social-media {
-        font-size: 180%;
+        font-size: 1.7rem;
         line-height: 170%;
         justify-content: space-evenly;
     }
@@ -714,6 +714,7 @@ body>div {
     .top {
         font-size: 130%;
     }
+
 }
 
 .faq-container h1 {
@@ -905,7 +906,8 @@ background-color: #503A26;
     align-items: center;
     justify-content: space-around;
     padding: 4px;
-    line-height: 2.2rem margin: 0 auto;
+    line-height: 2.2rem;
+    margin: 0 auto;
     font-size: 1.3rem;
 }
 
@@ -1030,6 +1032,11 @@ td {
     font-weight: 400;
 }
 
+#hashtags > ul {
+    display: flex;
+    flex-direction: column;
+}
+
 @media screen and (min-width: 375px) {
     #signup-hero-title {
         top: 31%;
@@ -1070,7 +1077,7 @@ td {
 
 
     .form-section h2 {
-        font-size: 1.8rem;
+        font-size: 2.8rem;
         padding-top: 4px;
         padding-bottom: 4px;
     }
@@ -1088,18 +1095,19 @@ td {
     #form {
         font-size: 1.8em;
         text-align: end;
+        line-height: 3.6rem;
     }
 
     .join {
         box-sizing: border-box;
         font-size: 2rem;
         text-align: inherit;
+        line-height: 3rem;
     }
 
     table, th, td {
         font-size: 1.6rem;
         table-layout: fixed;
-        width: 99%;
     }
 }
 
@@ -1116,8 +1124,11 @@ td {
         line-height: 36px;
     } */
 
+    #hashtags ul {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    }
 }
-
 
 @media screen and (min-width: 1024px) {
 
@@ -1164,11 +1175,22 @@ td {
         width: auto;
         object-fit: contain;
     }
+
+    #hashtags > ul {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
 }
 
 @media screen and (min-width: 1440px) {
     #form {
         font-size: 2.4rem;
         line-height: 2.4rem;
+            }
+        #hashtags ul {
+            font-size: 1.8rem;
+            line-height: 2.2rem;
+            }
+        }
     }
 }
