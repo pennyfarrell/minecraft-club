@@ -24,10 +24,6 @@ body {
     background-color: #3B5822;
     color: #f5deb3;
 }
-/*
-a {
-    color: #f5deb3;
-}
 
 /* headings and logo */
 
@@ -41,13 +37,10 @@ a {
     max-width: 100%;
 }
 
-
 img {
     height: auto;
     max-width: 100%;
     object-fit: contain;
-    /* padding-right: 8px;
-    padding-left: 8px; */
     max-inline-size: 100%;
     }
 
@@ -57,13 +50,6 @@ img {
     justify-content: space-between;
     margin-bottom: 8px;
 }
-
-/*.container > img {
-    height: 100%;
-    width: 0;
-    padding-left: 8px;
-}
-*/
 
 h1 {
     font-family: 'Barlow', sans-serif;
@@ -83,10 +69,6 @@ h1 {
 .container > a {
     text-decoration: #3B5822;
 }
-/* 
-.logo>img {
-    height: 0.9em;
-}  */
 
 ul {
     display: flex;
@@ -95,10 +77,6 @@ ul {
 }
 
 /* navigation links */
-/* 
-#menu {
-    font-size: .7em;
-} */
 
 #menu {
     display: flex;
@@ -137,7 +115,7 @@ ul {
 }
 
 #hero-outer {
-    /* height: 600px; */
+    height: auto;
     width: 100%;
     border: 1px solid #f5deb3;
     overflow: hidden;
@@ -189,16 +167,9 @@ ul {
     font-size: 1em;
 }
 
-/* 
-#hero-text>h2,
-h3 {
-    width: 18rem;
-} */
-
-/* about the club section */
+/* About the Club section */
 
 #club-ethos {
-    /* text-align: justify; */
     justify-content: center;
     line-height: 30px;
     font-weight: 400;
@@ -220,14 +191,6 @@ h3 {
     padding: 12px 4px 12px 4px;
     text-align: center;
 }
-
-/* .parent-1 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-} */
 
 .parent-1 {
     display: flex;
@@ -259,12 +222,10 @@ h3 {
 
 .bubble-quote-one {
     position: relative;
-    /* grid-area: 1 / 3 / 2 / 4; */
     background: #f5deb3;
     color: #6b3c1d;
     font-weight: 400;
     font-size: 14px;
-    /* line-height: 30px; */
     text-align: center;
     width: 200px;
     height: auto;
@@ -445,7 +406,6 @@ video {
 }
 
 #video-tour {
-    /* height: 450px; */
     margin: auto;
     text-align: center;
     padding-bottom: 8px;
@@ -497,8 +457,6 @@ footer {
 
 .contact {
     padding: 0.6rem 0 0.6rem 0;
-    /* display: flex;
-    flex-direction: column; */
     font-weight: bold;
     text-align: center;
     list-style: none;
@@ -519,11 +477,6 @@ footer {
     list-style: none;
     font-size: 1.9rem;
 }
-
-/* 
-.social-media > li {
-    display: inline;
-} */
 
 .social-media i {
     font-size: 1.5em;
@@ -575,11 +528,6 @@ body>div {
         width: 40rem;
     }
 
-    /* 
-    h2 {
-        font-size: 1.5em;
-    } */
-
     h2 {
         font-size: 140%;
     }
@@ -618,8 +566,6 @@ body>div {
     video {
         width: 100%;
         height: auto;
-        /* padding-top: 0;
-        padding-bottom: 34px; */
     }
 
     #video-tour {
@@ -649,10 +595,6 @@ body>div {
     h1 {
         font-size: 150%;
     }
-/* 
-    img {
-        width: 1em;
-    } */
 
     #menu {
         font-size: 110%
@@ -687,7 +629,6 @@ body>div {
         flex-direction: row;
         flex-wrap: nowrap;
         padding-bottom: 10px;
-        /* width: 1400px; */
     }
 
     #two {
@@ -695,7 +636,6 @@ body>div {
         flex-direction: row-reverse;
         flex-wrap: nowrap;
         padding-bottom: 10px;
-        /* width: 1400px; */
     }
 
     #three {
@@ -703,7 +643,6 @@ body>div {
         flex-direction: row;
         flex-wrap: nowrap;
         padding-bottom: 10px;
-        /* width: 1400px; */
     }
 
     #div-1-left-image,
@@ -1032,14 +971,6 @@ padding: 8px;
     background-color: #503A26;
     padding: 10px 0;
     line-height: 30px;
-    /* margin: auto; */
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; */
-    /* align-items: center;
-    text-align: start;
-    justify-content: space-between; */
-    /* width: 100%; */
 }
 
 .join-button {
@@ -1058,9 +989,12 @@ padding: 8px;
     color: #3B5822;
 }
 
-table {
+#table {
     display: flex;
     flex-direction: column;
+}
+
+table {
     width: 100%;
 }
 
@@ -1150,7 +1084,6 @@ td {
 
 
     #form {
-        /* width: 80%; */
         font-size: 1.4rem;
         text-align: end;
     }
@@ -1175,7 +1108,6 @@ td {
 
     #signup-two {
         width: 98%;
-        /* margin: 6px 0 0 0; */
     }
 }
 
@@ -1189,7 +1121,6 @@ td {
     }
 
     #form {
-        /* width: 70%; */
         font-size: 1.8rem;
     }
 
@@ -1217,7 +1148,6 @@ td {
 
     #signup-two {
         width: auto;
-        /* margin: 6px 0 0 3px; */
     }
 }
 
