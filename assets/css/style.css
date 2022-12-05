@@ -78,8 +78,11 @@ h1 {
     flex-wrap: nowrap;
     justify-content: center;
     padding-left: 4px;
+    }
+    
+.container > a {
+    text-decoration: #3B5822;
 }
-
 /* 
 .logo>img {
     height: 0.9em;
