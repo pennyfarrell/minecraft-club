@@ -39,9 +39,9 @@ body {
 
 img {
     height: auto;
-    max-width: 100%;
+    width: 100%;
     object-fit: contain;
-    max-inline-size: 100%;
+    /* max-inline-size: 100%; */
     }
 
 .container {
@@ -836,6 +836,8 @@ background-color: #503A26;
 
 #signup-img {
 background-color: #3B5822;
+display: block;
+text-align: center;
 }
 
 /*
@@ -853,13 +855,13 @@ background-color: #3B5822;
 
 
 #signup-hero-title {
-    width: 50%;
+    width: 54%;
     text-align: center;
     position: absolute;
     top: 27%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-family: 'Archivo Narrow', sans-serif;
     color: #f5deb3;
     text-shadow: 2px 2px black;
@@ -1116,6 +1118,12 @@ td {
 
 
 @media screen and (min-width: 1024px) {
+
+    #signup-img {
+        background-color: #3B5822;
+        width: 100%;
+        object-fit: fill;
+        }
 
     #signup-hero-title {
         top: 40%;
