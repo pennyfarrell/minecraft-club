@@ -654,7 +654,7 @@ footer {
     .bubble-quote-two,
     .bubble-quote-three {
         font-size: 20px;
-        width: 20%px;
+        width: 20%;
         padding: 16px 12px 16px 12px;
         line-height: 25px;
         height: fit-content;
@@ -941,7 +941,7 @@ details[open] div {
 .signup-form {
     margin: 150px 10% 0 0;
     color: #fff;
-    background-color: #3B5822 (0.6);
+    background-color: #3B5822;
     max-width: 400px;
     position: absolute;
     left: 10%;
