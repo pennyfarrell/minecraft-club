@@ -1164,9 +1164,9 @@ padding: 8px;
 .join-align {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    justify-content: center;
+    padding-inline-start: 2rem;
     margin: 0 auto;
+    align-items: center;
 }
 
 .join {
@@ -1216,12 +1216,18 @@ td {
     text-align: center;
     margin: auto;
     font-size: 1rem;
+    padding: 2px;
+    inline-size: auto;
 }
 
 th,
 td {
     background-color: #f5deb3;
     color: #3b5822;
+}
+
+#table-col-one {
+    width: 40%;
 }
 
 .build-title>h2 {
@@ -1362,6 +1368,10 @@ td {
     .join-button {
         font-size: 1.8rem;
     }
+
+table {
+    width: 90%;
+}
 
     table,
     th,
