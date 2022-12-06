@@ -958,7 +958,8 @@ padding: 8px;
 
 .join-align {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
     justify-content: center;
     margin: 0 auto;
 }
@@ -973,14 +974,19 @@ padding: 8px;
     line-height: 1.8rem;
 }
 
+#submit {
+    margin: auto;
+}
+
 .join-button {
     margin-top: auto;
+    margin-bottom: 8px;
     border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+    padding: 10px 22px 10px 22px;
     text-align: center;
-    font-size: 100%;
+    font-size: 1.3rem;
     background-color: #3B5822;
-    color: #fafafa;
+    color: #f5deb3;
     display: block;
 }
 
