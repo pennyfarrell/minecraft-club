@@ -32,7 +32,7 @@ body {
     width: auto;
     object-fit: contain;
     padding-right: 8px;
-    padding-left: 8px;
+    padding-left: 4px;
     max-inline-size: 100%;
     max-width: 100%;
 }
@@ -56,7 +56,7 @@ h1 {
     font-weight: 500;
     color: #f5deb3;
     text-align: left;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-shadow: 1px 1px black;
 }
 
@@ -423,6 +423,7 @@ video {
     padding: 8px 0 18px 0px;
     text-align: center;
     align-content: space-around;
+    margin: 6px;
 }
 
 #club-times-title {
@@ -701,6 +702,7 @@ footer {
 
     #times {
         font-size: 180%;
+        margin: 10px 180px 10px 180px;
     }
 
     .contact {
@@ -712,6 +714,213 @@ footer {
     }
 
 }
+
+
+@media screen and (min-width: 2560px) {
+
+    .logo > img {
+        height: 50px;
+        width: auto;
+        object-fit: contain;
+        padding-right: 8px;
+        padding-left: 8px;
+        max-inline-size: 100%;
+    }
+        
+    h1 {
+        font-size: 4rem;
+    }
+
+    #menu {
+        font-size: 3rem;
+    }
+
+    #hero-text {
+        width: 105rem;
+        height: 3.8em;
+        font-size: 3.5rem;
+    }
+
+    #club-ethos {
+        font-size: 3.2rem;
+        text-shadow: 1px 1px black;
+        padding: 14px 40px 14px 40px;
+        line-height: 4rem;
+    }
+
+    #our-club-title {
+        font-size: 6rem;
+        text-align: center;
+    }
+
+    .parent-1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 4px 2px 4px 4px;
+    }
+
+    #one {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding-bottom: 10px;
+    }
+
+    #two {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        padding-bottom: 10px;
+    }
+
+    #three {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding-bottom: 10px;
+    }
+
+    #div-1-left-image,
+    #div-1-center-image,
+    #div-1-right-image {
+        height: 920px;
+        font-size: 5.2em;
+        width: 75%;
+    }
+
+    .bubble-quote-one,
+    .bubble-quote-two,
+    .bubble-quote-three {
+        font-size: 3rem;
+        width: 34rem;
+        line-height: 3.4rem;
+        height: fit-content;
+        margin: auto
+    }
+
+    .bubble-quote-two:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 0;
+        z-index: 1;
+        border-style: solid;
+        border-width: 32px 0 0 32px;
+        border-color: transparent transparent transparent #f5deb3;
+        top: 50%;
+        right: -31px;
+        margin-top: -13px;
+    }
+
+    .bubble-quote-two:before {
+        content: '';
+        position: absolute;
+        width: 0;
+        z-index: 1;
+        border-style: solid;
+        border-width: 32px 0 0 32px;
+        border-color: transparent transparent transparent #854d27;
+        top: 50%;
+        right: -32px;
+        margin-top: -15px;
+        display: block;
+    }
+
+    video {
+        width: 670px;
+        height: 480px;
+        padding-top: 0;
+        padding-bottom: 34px;
+    }
+
+    #video-tour {
+        height: 500px;
+    }
+    #club-times-title {
+        font-size: 6rem ;
+    }
+
+    #times {
+        font-size: 4rem;
+        border-radius: 4px;
+           }
+
+    .contact {
+        font-size: 3rem;
+        line-height: 5.2rem;
+    }
+
+    .social-media {
+        font-size: 3rem;
+    }
+
+    .top {
+        font-size: 3rem;
+    }
+}
+
+.faq-container h1 {
+    background-color: #f5deb3;
+    color: #3B5822;
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    padding: 4px;
+    margin: 3px;
+    border: 2px solid #f5deb3;
+    ;
+}
+
+.faq-container>details {
+    margin-inline: max(3px, 50% - 800px/2);
+}
+
+#kids {
+    background-color: #f5deb3;
+    color: #503A26;
+    border: 2px solid #503A26;
+}
+
+details {
+    color: #f5deb3;
+    font-size: 1.5rem;
+}
+
+summary {
+    background-color: #3B5822;
+    color: #f5deb3;
+    padding: .5em 0.6rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    transition: height 1s ease;
+    margin: 7px;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary:after {
+    content: "\002B";
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+details[open] summary:after {
+    content: "\00D7";
+}
+
+details[open] div {
+    padding: .5em 1em;
+    background-color: #503A26;
+}
+
+
 
 .faq-container h1 {
     background-color: #f5deb3;
@@ -1046,12 +1255,30 @@ td {
 }
 
 @media screen and (min-width: 375px) {
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+
     #signup-hero-title {
         top: 31%;
     }
 }
 
 @media screen and (min-width: 425px) {
+    
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    #menu {
+        font-size: 1.2rem;
+    }
+
+.logo {
+    padding-left: 8px;
+}
+
     #signup-hero-title {
         font-size: 2.4rem;
         top: 34%
@@ -1059,6 +1286,10 @@ td {
 
     .form-section h3 {
         font-size: 1.3rem;
+    }
+
+    .club-times {
+        margin: 10px;
     }
 
     table,
@@ -1109,6 +1340,11 @@ td {
         font-size: 1.8em;
         text-align: end;
         line-height: 3.6rem;
+    }
+
+    
+    .club-times {
+        margin: 1rem 7rem;
     }
 
     .join {
@@ -1207,7 +1443,7 @@ td {
         padding: 10px;
         width: 85%
     }
-    
+
     input[type=text] {
         width: 45%;
     }
@@ -1215,9 +1451,13 @@ td {
     input[type=email] {
         width: 45%;
     }
-.join {
-    font-size: 2.4rem;
+.club-times {
+    margin: 1rem 10rem;
 }
+
+    .join {
+        font-size: 2.4rem;
+    }
 
     table,
     th,
