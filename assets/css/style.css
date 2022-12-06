@@ -491,10 +491,6 @@ footer {
     border: 1px solid #3B5822;
 }
 
-body>div {
-    margin-inline: max(3px, 50% - 800px/2);
-}
-
 @media screen and (min-width: 768px) {
 
     main {
@@ -729,6 +725,10 @@ body>div {
     ;
 }
 
+.faq-container > div {
+    margin-inline: max(3px, 50% - 800px/2);
+}
+
 #kids {
     background-color: #f5deb3;
     color: #503A26;
@@ -780,14 +780,18 @@ details[open] div {
 }
 
 @media screen and (min-width: 1024px) {
+    .faq-container>div {
+        margin-inline: max(2px, 50% - 1000px/2);
+        }
+    
     .faq-container>details {
         font-size: 2.2rem;
         padding: 1px;
     }
-
+/* 
     body>div {
         margin-inline: auto;
-    }
+    } */
 }
 
 @media screen and (min-width: 1440px) {
@@ -1087,7 +1091,6 @@ td {
         width: 360px;
     }
 
-
     .form-section h2 {
         font-size: 2.8rem;
         padding-top: 4px;
@@ -1128,11 +1131,11 @@ td {
         table-layout: fixed;
     }
 }
-
+/* 
 .join>* {
     box-sizing: border-box;
     align-content: center;
-}
+} */
 
 /* 
     .join > label {
@@ -1145,11 +1148,10 @@ td {
 #hashtags ul {
     font-size: 1.4rem;
     line-height: 2rem;
-}
+    }
 }
 
 @media screen and (min-width: 1024px) {
-
     #signup-img {
         background-color: #3B5822;
         width: 100%;
@@ -1203,6 +1205,7 @@ td {
 @media screen and (min-width: 1440px) {
     #signup-hero-title {
         top: 68%;
+        font-size: 3.4rem;
     }
 
     #form {
@@ -1224,6 +1227,4 @@ td {
         font-size: 1.8rem;
         line-height: 2.2rem;
     }
-}
-}
 }
