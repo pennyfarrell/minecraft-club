@@ -716,152 +716,7 @@ footer {
 }
 
 
-@media screen and (min-width: 2560px) {
-
-    .logo>img {
-        height: 50px;
-        width: auto;
-        object-fit: contain;
-        padding-right: 8px;
-        padding-left: 8px;
-        max-inline-size: 100%;
-    }
-
-    h1 {
-        font-size: 4rem;
-    }
-
-    #menu {
-        font-size: 3rem;
-    }
-
-    #hero-text {
-        width: 105rem;
-        height: 3.8em;
-        font-size: 3.5rem;
-    }
-
-    #club-ethos {
-        font-size: 3.2rem;
-        text-shadow: 1px 1px black;
-        padding: 14px 40px 14px 40px;
-        line-height: 4rem;
-    }
-
-    #our-club-title {
-        font-size: 6rem;
-        text-align: center;
-    }
-
-    .parent-1 {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        padding: 4px 2px 4px 4px;
-    }
-
-    #one {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        padding-bottom: 10px;
-    }
-
-    #two {
-        display: flex;
-        flex-direction: row-reverse;
-        flex-wrap: nowrap;
-        padding-bottom: 10px;
-    }
-
-    #three {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        padding-bottom: 10px;
-    }
-
-    #div-1-left-image,
-    #div-1-center-image,
-    #div-1-right-image {
-        height: 920px;
-        font-size: 5.2em;
-        width: 75%;
-    }
-
-    .bubble-quote-one,
-    .bubble-quote-two,
-    .bubble-quote-three {
-        font-size: 3rem;
-        width: 34rem;
-        line-height: 3.4rem;
-        height: fit-content;
-        margin: auto
-    }
-
-    .bubble-quote-two:after {
-        content: '';
-        position: absolute;
-        display: block;
-        width: 0;
-        z-index: 1;
-        border-style: solid;
-        border-width: 32px 0 0 32px;
-        border-color: transparent transparent transparent #f5deb3;
-        top: 50%;
-        right: -31px;
-        margin-top: -13px;
-    }
-
-    .bubble-quote-two:before {
-        content: '';
-        position: absolute;
-        width: 0;
-        z-index: 1;
-        border-style: solid;
-        border-width: 32px 0 0 32px;
-        border-color: transparent transparent transparent #854d27;
-        top: 50%;
-        right: -32px;
-        margin-top: -15px;
-        display: block;
-    }
-
-    video {
-        width: 670px;
-        height: 480px;
-        padding-top: 0;
-        padding-bottom: 34px;
-    }
-
-    #video-tour {
-        height: 500px;
-    }
-
-    #club-times-title {
-        font-size: 6rem;
-    }
-
-    #times {
-        font-size: 4rem;
-        border-radius: 4px;
-    }
-
-    .contact {
-        font-size: 3rem;
-        line-height: 5.2rem;
-    }
-
-    .social-media {
-        font-size: 3rem;
-    }
-
-    .top {
-        font-size: 3rem;
-    }
-}
-
-.faq-container h1 {
+.faq-container > h1 {
     background-color: #f5deb3;
     color: #3B5822;
     text-align: center;
@@ -1455,6 +1310,7 @@ table {
         font-size: 3rem;
         line-height: 2.4rem;
         margin: 1rem 5rem;
+        text-align: end;
     }
 
     .form-section h3 {
@@ -1492,5 +1348,198 @@ table {
     #hashtags ul {
         font-size: 1.8rem;
         line-height: 2.2rem;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+
+    .logo>img {
+        height: 50px;
+        width: auto;
+        object-fit: contain;
+        padding-right: 8px;
+        padding-left: 8px;
+        max-inline-size: 100%;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    #menu {
+        font-size: 3rem;
+    }
+
+    #hero-text {
+        width: 105rem;
+        height: 3.8em;
+        font-size: 3.5rem;
+    }
+
+    #club-ethos {
+        font-size: 3.2rem;
+        text-shadow: 1px 1px black;
+        padding: 14px 40px 14px 40px;
+        line-height: 4rem;
+    }
+
+    #our-club-title {
+        font-size: 6rem;
+        text-align: center;
+    }
+
+    .parent-1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 4px 2px 4px 4px;
+    }
+
+    #one {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding-bottom: 10px;
+    }
+
+    #two {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        padding-bottom: 10px;
+    }
+
+    #three {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding-bottom: 10px;
+    }
+
+    #div-1-left-image,
+    #div-1-center-image,
+    #div-1-right-image {
+        height: 920px;
+        font-size: 5.2em;
+        width: 75%;
+    }
+
+    .bubble-quote-one,
+    .bubble-quote-two,
+    .bubble-quote-three {
+        font-size: 3rem;
+        width: 34rem;
+        line-height: 3.4rem;
+        height: fit-content;
+        margin: auto
+    }
+
+    .bubble-quote-two:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 0;
+        z-index: 1;
+        border-style: solid;
+        border-width: 32px 0 0 32px;
+        border-color: transparent transparent transparent #f5deb3;
+        top: 50%;
+        right: -31px;
+        margin-top: -13px;
+    }
+
+    .bubble-quote-two:before {
+        content: '';
+        position: absolute;
+        width: 0;
+        z-index: 1;
+        border-style: solid;
+        border-width: 32px 0 0 32px;
+        border-color: transparent transparent transparent #854d27;
+        top: 50%;
+        right: -32px;
+        margin-top: -15px;
+        display: block;
+    }
+
+    video {
+        width: 670px;
+        height: 480px;
+        padding-top: 0;
+        padding-bottom: 34px;
+    }
+
+    #video-tour {
+        height: 500px;
+    }
+
+    .faq-container h1 {
+        font-size: 3.5rem;
+    }
+
+    .faq-container details {
+        font-size: 3.2rem;
+        margin-inline: max(3px, 50% - 1900px/2);
+    }
+
+    #club-times-title {
+        font-size: 6rem;
+    }
+
+    #times {
+        font-size: 4rem;
+        border-radius: 4px;
+    }
+
+    #signup-hero-title {
+        top: 86%;
+        font-size: 6.6rem;
+        width: 47rem;
+    }
+
+    .form-section h3 {
+        font-size: 3.1rem;
+    }
+
+    label {
+        font-size: 3.2rem;
+    }
+
+    .form-section h2 {
+        font-size: 4.8rem;
+    }
+
+    .join-button {
+        font-size: 3.2rem;
+    }
+
+    table, th, td {
+        font-size: 3rem;    
+    }
+    
+    #form {
+    font-size: 3rem;
+    line-height: 2.4rem;
+    margin: 1rem 5rem;
+    padding: 0 17rem;
+    text-align: end;
+    }
+
+    #hashtags ul {
+        font-size: 3.8rem;
+        line-height: 4.2rem;
+    }
+
+    .contact {
+        font-size: 3rem;
+        line-height: 5.2rem;
+    }
+
+    .social-media {
+        font-size: 3rem;
+    }
+
+    .top {
+        font-size: 3rem;
     }
 }
