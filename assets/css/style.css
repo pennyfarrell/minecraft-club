@@ -725,7 +725,7 @@ footer {
     ;
 }
 
-.faq-container > div {
+.faq-container>details {
     margin-inline: max(3px, 50% - 800px/2);
 }
 
@@ -782,16 +782,13 @@ details[open] div {
 @media screen and (min-width: 1024px) {
     .faq-container>div {
         margin-inline: max(2px, 50% - 1000px/2);
-        }
-    
+    }
+
     .faq-container>details {
         font-size: 2.2rem;
         padding: 1px;
+        margin-inline: max(3px, 50% - 900px/2);
     }
-/* 
-    body>div {
-        margin-inline: auto;
-    } */
 }
 
 @media screen and (min-width: 1440px) {
@@ -801,6 +798,7 @@ details[open] div {
 
     .faq-container details {
         font-size: 2.6rem;
+        margin-inline: max(3px, 50% - 1200px/2);
     }
 }
 
@@ -1130,24 +1128,10 @@ td {
         font-size: 1.6rem;
         table-layout: fixed;
     }
-}
-/* 
-.join>* {
-    box-sizing: border-box;
-    align-content: center;
-} */
 
-/* 
-    .join > label {
-        display: flex;
-        flex-basis: 50%;
+    #hashtags ul {
         font-size: 1.4rem;
-        line-height: 36px;
-    } */
-
-#hashtags ul {
-    font-size: 1.4rem;
-    line-height: 2rem;
+        line-height: 2rem;
     }
 }
 
@@ -1166,7 +1150,7 @@ td {
 
     #form {
         font-size: 1.8rem;
-        line-height: 2.2rem;
+        line-height: 2.8rem;
     }
 
     input[type=text] {
@@ -1181,14 +1165,18 @@ td {
         font-size: 2.2rem;
     }
 
-    .form-info h3 {
+    .form-info>h3 {
         font-size: 1.9rem;
         width: 100%;
     }
 
-    .join label {
+    .join>label {
         font-size: 1.8rem;
         line-height: 40px;
+    }
+
+    .join-button {
+        font-size: 2.2rem;
     }
 
     #signup-two {
@@ -1204,14 +1192,32 @@ td {
 
 @media screen and (min-width: 1440px) {
     #signup-hero-title {
-        top: 68%;
-        font-size: 3.4rem;
+        top: 86%;
+        font-size: 4.6rem;
+        width: 26rem;
     }
 
     #form {
         font-size: 2.4rem;
         line-height: 2.4rem;
     }
+
+    .form-section h3 {
+        font-size: 2.1rem;
+        padding: 10px;
+        width: 85%
+    }
+    
+    input[type=text] {
+        width: 45%;
+    }
+
+    input[type=email] {
+        width: 45%;
+    }
+.join {
+    font-size: 2.2rem;
+}
 
     table,
     th,
