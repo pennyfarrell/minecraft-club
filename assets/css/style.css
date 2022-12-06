@@ -1038,7 +1038,7 @@ td {
     font-weight: 400;
 }
 
-#hashtags > ul {
+#hashtags>ul {
     display: flex;
     flex-direction: column;
 }
@@ -1054,8 +1054,14 @@ td {
         font-size: 2.4rem;
         top: 34%
     }
-    
-    table, th, td {
+
+    .form-section h3 {
+        font-size: 1.3rem;
+    }
+
+    table,
+    th,
+    td {
         font-size: 1.2rem;
     }
 }
@@ -1111,7 +1117,13 @@ td {
         line-height: 3rem;
     }
 
-    table, th, td {
+    .join-button {
+        font-size: 1.8rem;
+    }
+
+    table,
+    th,
+    td {
         font-size: 1.6rem;
         table-layout: fixed;
     }
@@ -1130,10 +1142,10 @@ td {
         line-height: 36px;
     } */
 
-    #hashtags ul {
+#hashtags ul {
     font-size: 1.4rem;
     line-height: 2rem;
-    }
+}
 }
 
 @media screen and (min-width: 1024px) {
@@ -1145,7 +1157,7 @@ td {
     }
 
     #signup-hero-title {
-        top: 40%;
+        top: 68%;
         font-size: 3.2rem;
         width: 460px;
     }
@@ -1182,21 +1194,36 @@ td {
         object-fit: contain;
     }
 
-    #hashtags > ul {
+    #hashtags>ul {
         font-size: 1.6rem;
         line-height: 2.2rem;
     }
 }
 
 @media screen and (min-width: 1440px) {
+    #signup-hero-title {
+        top: 68%;
+    }
+
     #form {
         font-size: 2.4rem;
         line-height: 2.4rem;
-            }
-        #hashtags ul {
-            font-size: 1.8rem;
-            line-height: 2.2rem;
-            }
-        }
     }
+
+    table,
+    th,
+    td {
+        font-size: 2rem;
+    }
+
+    join-button {
+        font-size: 2.2rem;
+    }
+
+    #hashtags ul {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+}
+}
 }
