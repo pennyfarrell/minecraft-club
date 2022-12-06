@@ -181,7 +181,7 @@ ul {
     font-size: 1.2em;
 }
 
-#our-club-title {
+.our-club-title {
     font-size: 1.6em;
     font-family: 'Archivo Narrow', sans-serif;
     font-weight: bold;
@@ -537,7 +537,7 @@ footer {
         font-size: 1.3rem;
     }
 
-    #our-club-title {
+    .our-club-title {
         font-size: 200%;
         text-shadow: 3px 3px #503A26;
     }
@@ -610,7 +610,7 @@ footer {
         line-height: 34px;
     }
 
-    #our-club-title {
+    .our-club-title {
         font-size: 260%;
     }
 
@@ -1383,7 +1383,7 @@ table {
         line-height: 4rem;
     }
 
-    #our-club-title {
+    .our-club-title {
         font-size: 6rem;
         text-align: center;
     }
