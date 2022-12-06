@@ -974,7 +974,7 @@ padding: 8px;
 }
 
 .join-button {
-    margin-top: 20px;
+    margin-top: auto;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
