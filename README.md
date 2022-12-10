@@ -148,9 +148,17 @@ There is a video embedded on the home page with showing some of the Minecraft cr
 
 [Back to top](#contents)
 
+### Club Timetable Section
+
+![Club Timetable](assets/readme-images/Club-Timetable.PNG)
+
+The purpose of this section is to succinctly show the age groups and times for each club session. The timetable is responsive on different device sizes to maximize visibility and help potential members easily access the structure of the groups (organised by age) and then identify the relevant time for that session. 
+
+[Back to top](#contents)
+
 ### FAQ Section
 
-![Gallery](readme-images/gallery.png)
+![FAQ Section](assets/readme-images/FAQ-section.PNG)
 
 The main purpose of this section is to answer questions that either parents/guardians may have as well as young people themselves.
 An accordion style question-and-answer format was used to make the page look less busy, especially on smaller screens. The Font-awesome icons were used to differentiate the adult-young people sections. Colour contrasts were used to differentiate questions from answers. 
@@ -159,39 +167,17 @@ An accordion style question-and-answer format was used to make the page look les
 
 ### Footer
 
-![The Footer](readme-images/footer.png)
+![The Footer](assets/readme-images/Footer-section.PNG)
 
-The Footer section is consistent in design on all pages. It includes a clickable envelope icon which opens an email form on a blank page to  make it easy to get connected by email. The Phone icon is clickable to easily connect a call to the club contact person. There are also links to social media pages including Facebook, Instagram and Twitter. All the social media links open in a new tab. 
-
-[Back to top](#contents)
-
-## Find Your Group Page
-
-### Available Groups 
-
-![Find Your Group](readme-images/find_group.png)
-
-This part of the page introduces different options which are available for interested clients. It provides details about the meet up times and place of each of the available groups, gives details about standards and format of the game. Cost and refreshment information is also included.
-
-The "Get Involved" button will take the user directly to the "Contact Us" page where the user can fill in the form and get singed up/more information.
+The Footer section is consistent in design on all pages. It includes a clickable envelope icon which opens an email form on a blank page to make it easy to get connected by email. The Phone icon is clickable to easily connect a call to the club contact person. There are also links to social media pages including Facebook, Instagram and Twitter. All the social media links open in a new tab. There is a 'back to top' button so that site users can easily navigate back to the top menu and nav bar.
 
 [Back to top](#contents)
 
-### Improvement Section
+### Sign Up Page
 
-![Improvement Section](readme-images/improvement.png)
+![Sign Up Form](assets/readme-images/Signup-form-section.PNG)
 
-This section focuses on those players who would like to improve their game or play on a more competitive level. Links to educational videos in five major areas (grand strokes, serve, volley, footwork, tactics) are provided.  Information about coaching possibilies is presented for those clients who might be interested in taking up coaching. A link to the location of the neighbourhood club which offers these options is included.
-
-[Back to top](#contents)
-
-## Contact Us Page
-
-### Contact Form and A Short Survey
-
-![Contact Form](readme-images/form.png)
-
-A form is available for those who would like to get in touch, need further information or are interested in more competitive tennis or coaching. All elements, like name, email address etc. are required. The user is to provide his contact details including their name and email address. A short survey asks about group preference and about interest in coaching and/or competitive tennis.
+A sign up form is available for those who would like to express an interest in joining the club. There are options to select the relevant group so that the appropriate information is provided to the new member. There is a repeated timetable below the form so that site users can access the information again without having to navigate away from the page. All elements, such as parent/guardian name, young person's name, email address etc. are required. 
 
 [Back to top](#contents)
 
@@ -207,8 +193,8 @@ A thank you message is displayed after filling in the contact form and the surve
 
 ### Future Features 
 
-* Adding a back to top button would enhance the user's experience as they would not have to scroll back all the way to the top.
-* I might consider changing the hero image for an image that would not be so dark in the future.
+* I would add an additional page with a gallery to showcase more images of the creations made by the group. 
+* I would add an information section about the organisation and club leaders. However, as this is a not a real organisation, I decided to focus on other features for the purposes of the assignment. 
 
 [Back to top](#contents)
 
