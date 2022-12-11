@@ -265,6 +265,7 @@ Take the following steps to create a clone of a project:
 * W3 school section on applying text to a hero image was also very useful [W3schools](https://www.w3schools.com/howto/howto_css_hero_image.asp).
 * The code for the speech bubble quotes was taken from code section by [Code Generator - Speech Bubble Generator](https://www.html-code-generator.com/css/speech-bubble-generator).
 * The code for the accordion styling of the FAQ section was taken from a blog post by [Felix Dusengimana](https://dev.to/felixdusengimana/.lets-create-an-faq-section-with-html-and-css-only-detail-tag-explained-12gf) and the related [codepen.io](https://codepen.io/phelixdusengimana/pen/ExQNMME).
+* The code for the back-to-top button was taken from []().**********************.
 * The fonts were downloaded from [Google Fonts](https://fonts.google.com/).
 * The color palate was found using [Color Picker From Image](https://colorpickerfromimage.com/).
 * The icons were found at [Font Awesome](https://fontawesome.com/).
@@ -275,14 +276,12 @@ Take the following steps to create a clone of a project:
 
 * The images were personal images from the club I run in real life.
 * The video was an extract from a video I made for another advocacy project called "Here All Along" to highlight the need for more stammered speech to feature in mainstream media. This project was recorded from the club I run and submitted to [ISAD.live 2022](https://isad.live/isad-2022/papers-presented-by/kids-corner/here-all-along-penny-farrell/)
-** The photos were compressed using the [Cloud Convertor](https://squoosh.app//).
+** The photos were converted to webp files to reduce file size using the [Cloud Convert](https://cloudconvert.com/png-to-webp).
+* The image and video files were reduced in size by 
 
 ## Acknowledgements
-* Extra help and guidance was received from my mentor Precious Ijege, from tutors and fellow colleagues from the Code Institute. Many an insight was received from my friend Aoife. 
-* I received help from tutors with my images which were blurry (object fit: cover property and the use of grid helped), with navigation bar which was "jumping" and becoming bigger when hovered on and with my footer overflowing due to a set size of one of the elements (more details in the [Testing File](TESTING.md))
-* To make the buttons on Home and Find Your Group page clickable, I used the [solution #1](https://testbook.com/web-development/how-to-create-an-html-button-that-acts-like-a-link) from the indicated website (onclick="window.location.href = 'group.html';").
-* A tutorial for creating a sticky header and footer was found [here](https://www.w3schools.com/howto/howto_css_fixed_menu.asp) and [here](https://www.youtube.com/watch?v=VSIB9zPYu4w).
-* [Kevin Powell's videos](https://www.youtube.com/watch?v=u044iM9xsWU) were instrumental in the use of flexbox.
-
-Thank you all for your support and encouragement.
+* Extra help and guidance was received from my mentor Daisy McGirr, from CI tutors and fellow Code Institute students on Slack.  
+* I received help from tutors with two issues I encountered. The first was in trying to get the header logo, title and nav bar to be responsive. The second time was for a bug on my signup page which had a skewed alignment from one side when the screen size increased.  
+* To help with planning and preparation of the assignment, I found the Code Institute library useful. the following were particularly helpful: [Milestone 1 Planning with Stephen Seagrave](https://youtu.be/06tXTbm-DxI) and [Creating your first README with Kera Cudmore](Creating your first README with Kera Cudmore).
+* I found [Kevin Powell's videos](https://www.youtube.com/watch?v=u044iM9xsWU) helpful in understanding and applying flexbox along with playing several rounds of [Flexbox Froggy](http://flexboxfroggy.com/).
 
