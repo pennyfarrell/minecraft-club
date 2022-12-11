@@ -25,7 +25,7 @@ body {
     color: #f5deb3;
 }
 
-/* headings and logo */
+/* heading and logo */
 
 .logo>img {
     height: 25px;
@@ -132,6 +132,7 @@ ul {
     position: relative;
 
     /* animates zoom effect on loading page */
+
     animation-name: hero-zoom;
     animation-duration: 7s;
     animation-fill-mode: forwards;
@@ -148,6 +149,8 @@ ul {
         transform: scale(1.1);
     }
 }
+
+/* hero text */
 
 #hero-text {
     text-align: center;
@@ -219,6 +222,10 @@ ul {
     text-shadow: 1px 1px #f5deb3;
     text-align: center;
 }
+
+/* Testimonial Speech Bubbles and Images*/
+
+/* Speech bubble one */
 
 .bubble-quote-one {
     position: relative;
@@ -347,7 +354,7 @@ ul {
     text-align: center;
 }
 
-/* speech bubble three */
+/* Speech bubble three */
 
 .bubble-quote-three {
     position: relative;
@@ -393,6 +400,8 @@ ul {
     display: block;
 }
 
+/*  Video section */
+
 #tour {
     text-align: center;
     justify-content: center;
@@ -410,6 +419,8 @@ video {
     text-align: center;
     padding-bottom: 8px;
 }
+
+/* Club timetable */
 
 .club-times {
     display: flex;
@@ -448,6 +459,8 @@ video {
     padding-bottom: 8px;
     padding-top: 8px;
 }
+
+/* Footer */
 
 footer {
     width: 100%;
@@ -491,6 +504,8 @@ footer {
     font-size: 0.8rem;
     border: 1px solid #3B5822;
 }
+
+/* Media queries for home page */
 
 @media screen and (min-width: 768px) {
 
@@ -715,6 +730,7 @@ footer {
 
 }
 
+/* FAQ page */
 
 .faq-container > h1 {
     background-color: #f5deb3;
@@ -742,6 +758,8 @@ details {
     color: #f5deb3;
     font-size: 1.5rem;
 }
+
+/* FAQ accordion styling  */
 
 summary {
     background-color: #3B5822;
@@ -775,8 +793,6 @@ details[open] div {
     padding: .5em 1em;
     background-color: #503A26;
 }
-
-
 
 .faq-container h1 {
     background-color: #f5deb3;
@@ -837,6 +853,8 @@ details[open] div {
     padding: .5em 1em;
     background-color: #503A26;
 }
+
+/* Media queries for FAQ section */
 
 @media screen and (min-width: 768px) {
     .faq-container details {
@@ -902,20 +920,6 @@ details[open] div {
     text-align: center;
 }
 
-/*
-    display: flex;
-    flex-direction: row;
-     height: 24vh;
-    width: 100%;
-    background-image: url(../images/reception.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    }
-*/
-
-
 #signup-hero-title {
     width: 54%;
     text-align: center;
@@ -938,6 +942,8 @@ details[open] div {
     margin: auto;
 }
 
+/* Signup form styling */
+
 .signup-form {
     margin: 150px 10% 0 0;
     color: #fff;
@@ -947,11 +953,6 @@ details[open] div {
     left: 10%;
     padding: 30px;
 }
-
-/* .signup-form>h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-} */
 
 #form-info {
     font-style: normal;
@@ -993,15 +994,6 @@ input[label] {
     box-sizing: border-box;
 }
 
-/* 
-#form>label {
-    flex: 50%;
-} */
-/* 
-#form * {
-padding: 8px;
-} */
-
 .text-input {
     background: transparent;
     color: #fafafa;
@@ -1016,6 +1008,8 @@ padding: 8px;
     border-color: #503A26;
 }
 
+/* Submit button styling */
+
 .join-align {
     display: flex;
     flex-direction: column;
@@ -1025,7 +1019,6 @@ padding: 8px;
 }
 
 .join {
-    /* flex: 50%; */
     font-size: 1.3rem;
     text-align: inherit;
     box-sizing: border-box;
@@ -1033,10 +1026,6 @@ padding: 8px;
     padding: 10px 0;
     line-height: 1.8rem;
 }
-
-/* label {
-    width: 50%;
-} */
 
 #submit {
     margin: auto;
@@ -1058,6 +1047,8 @@ padding: 8px;
     background-color: #fafafa;
     color: #3B5822;
 }
+
+/* Signup form timetable */
 
 table {
     width: 100%;
@@ -1087,15 +1078,10 @@ td {
 
 .build-title>h2 {
     text-align: center;
-    /* position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     font-size: 1.2rem;
     font-family: 'Archivo Narrow', sans-serif;
     color: #f5deb3;
     text-shadow: 2px 2px black;
-    /* width: 80%; */
     background-color: #3B5822;
 }
 
@@ -1112,6 +1098,8 @@ td {
     display: flex;
     flex-direction: column;
 }
+
+/* Media queries for sign up section */
 
 @media screen and (min-width: 375px) {
 
