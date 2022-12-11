@@ -29,7 +29,7 @@ body {
 
 .logo>img {
     height: 25px;
-    width: auto;
+    width: 25px;
     object-fit: contain;
     padding-right: 8px;
     padding-left: 4px;
