@@ -2,7 +2,7 @@
 
 ## Code Validation
 
-The [Tennis For All](https://lucia2007.github.io/tennis-for-all/index.html) webpage was thouroughly tested. HTML code was reviewed in the [W3C HTML Validator](https://validator.w3.org). The CSS code was validated in the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). There were a few minor errors found regarding incorrect semantic use of section and span and a few missing tags (details below). All mistakes were corrected and both HTML and CSS files currently have no errors.
+The [Stammer Minecraft Club](https://pennyfarrell.github.io/minecraft-club/) webpage was thouroughly tested. HTML code was reviewed in the [W3C HTML Validator](https://validator.w3.org). The CSS code was validated in the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). There were a few minor errors found regarding incorrect semantic use of header tags  and a missing tagp (details below). All mistakes were corrected and both HTML and CSS files currently have no errors.
 
 The results of HTML validation of each of the pages are as follows:
 

@@ -267,6 +267,7 @@ Take the following steps to create a clone of a project:
 * The code for the accordion styling of the FAQ section was taken from a blog post by [Felix Dusengimana](https://dev.to/felixdusengimana/.lets-create-an-faq-section-with-html-and-css-only-detail-tag-explained-12gf) and the related [codepen.io](https://codepen.io/phelixdusengimana/pen/ExQNMME).
 * The code for the back-to-top button was taken from []().**********************.
 * The fonts were downloaded from [Google Fonts](https://fonts.google.com/).
+* The Favicon was created usig [Fonticon](https://fontawesome.com/icons/fonticons).
 * The color palate was found using [Color Picker From Image](https://colorpickerfromimage.com/).
 * The icons were found at [Font Awesome](https://fontawesome.com/).
 * [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
@@ -274,6 +275,7 @@ Take the following steps to create a clone of a project:
 
 ## Media
 
+* The Fonticon and title logo was taken from []()**********
 * The images were personal images from the club I run in real life.
 * The video was an extract from a video I made for another advocacy project called "Here All Along" to highlight the need for more stammered speech to feature in mainstream media. This project was recorded from the club I run and submitted to [ISAD.live 2022](https://isad.live/isad-2022/papers-presented-by/kids-corner/here-all-along-penny-farrell/)
 ** The photos were converted to webp files to reduce file size using the [Cloud Convert](https://cloudconvert.com/png-to-webp).
