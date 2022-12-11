@@ -259,22 +259,23 @@ Take the following steps to create a clone of a project:
 
 ## Content
 
-* The overall inspiration came from my local [Tennis Club](https://shankilltennisclub.com/) which is extremely welcoming and accomodating of new players. Visiting this club significantly helped our family with making friends, having fun, keeping fit and assimilating in the new country.
-* The inspiration for the navigation and the form came from *Love Running Project*.
-* The styling of "Find Your Group" section was inspired by [Czechitas](https://czechitas.cz).
+* The overall inspiration came from a voluntary club that I run. The real version of the club is a single session but I would love the concept of the club expanding to include members of more age-groups. The FAQ section came from real questions that I have been asked over the past year since I started the club. I now run another version of this club with the [Irish Stammering Association] (https://stammeringireland.ie/). The aims of the club are to create a community for young people who stammer in Ireland and to advocate on their behalf to challenge myths and stigma about stammering. The expectation to 'overcome' stammering is pervasive but negative. Stammering is a valid way of speaking and the young stammering community need encouragement to have their voices heard just as they are, without the expectation of having to be fluent.
+* The inspiration for the hero image with zoom styling, the navigation bar, footer and sign up form came from *Love Running Project*.
+* Additional learning came from W3 schools, in particular to learn Flex and CSS styling for the timetable, font, underline and alignment[W3schools](https://www.w3schools.com/css/default.asp).
+* W3 school section on applying text to a hero image was also very useful [W3schools](https://www.w3schools.com/howto/howto_css_hero_image.asp).
+* The code for the speech bubble quotes was taken from code section by [Code Generator - Speech Bubble Generator](https://www.html-code-generator.com/css/speech-bubble-generator).
+* The code for the accordion styling of the FAQ section was taken from a blog post by [Felix Dusengimana](https://dev.to/felixdusengimana/.lets-create-an-faq-section-with-html-and-css-only-detail-tag-explained-12gf) and the related [codepen.io](https://codepen.io/phelixdusengimana/pen/ExQNMME).
 * The fonts were downloaded from [Google Fonts](https://fonts.google.com/).
-* The location of the local tennis club is taken from [Google Maps](https://www.google.com/maps).
-* The "Find Your Group" page content was partly taken from this [site](https://shankilltennisclub.com/).
-* The color pallete was downloaded from [coolors](https://coolors.co).
+* The color palate was found using [Color Picker From Image](https://colorpickerfromimage.com/).
 * The icons were found at [Font Awesome](https://fontawesome.com/).
 * [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
-* The framework for the readme file was taken from [Wawas Wood](https://github.com/EwanColquhoun/wawaswoods/blob/master/README.md) and from [Scoops](https://github.com/amylour/scoops_pp1/blob/main/README.md#testing).
+* The framework for the readme file was inspired by a layout from a cohort peer who had received a layout template from their mentor: [lucia2007](https://github.com/lucia2007/tennis-for-all) and [Kera Cudmore README Examples](https://github.com/kera-cudmore/readme-examples).
 
 ## Media
 
-* The images were downloaded from [Unsplash](https://unsplash.com/), [iStock](https://www.istockphoto.com/) and [Shankill Tennis Club](https://shankilltennisclub.com/).
-* The instructional tennis videos were found on [YouTube](https://youtube.com).
-* The photos were compressed using the [Squoosh app](https://squoosh.app//).
+* The images were personal images from the club I run in real life.
+* The video was an extract from a video I made for another advocacy project called "Here All Along" to highlight the need for more stammered speech to feature in mainstream media. This project was recorded from the club I run and submitted to [ISAD.live 2022](https://isad.live/isad-2022/papers-presented-by/kids-corner/here-all-along-penny-farrell/)
+** The photos were compressed using the [Cloud Convertor](https://squoosh.app//).
 
 ## Acknowledgements
 * Extra help and guidance was received from my mentor Precious Ijege, from tutors and fellow colleagues from the Code Institute. Many an insight was received from my friend Aoife. 
