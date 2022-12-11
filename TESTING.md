@@ -2,29 +2,24 @@
 
 ## Code Validation
 
-The [Stammer Minecraft Club](https://pennyfarrell.github.io/minecraft-club/) webpage was thouroughly tested. HTML code was reviewed in the [W3C HTML Validator](https://validator.w3.org). The CSS code was validated in the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). There were a few minor errors found regarding incorrect semantic use of header tags  and a missing tagp (details below). All mistakes were corrected and both HTML and CSS files currently have no errors.
+The [Stammer Minecraft Club](https://pennyfarrell.github.io/minecraft-club/) webpage was thouroughly tested. HTML code was reviewed in the [W3C HTML Validator](https://validator.w3.org). The CSS code was validated in the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). There were a few minor errors found regarding incorrect semantic use of header tags, missing closing double quote in attribute and incorrect input labels. All mistakes were corrected and both HTML and CSS files currently have no errors.
 
 The results of HTML validation of each of the pages are as follows:
 
 * Home Page
 
-  ![W3C Validator test result](readme-images/index_page_no_errors.png)
+  ![W3C Validator test result]()
 
-* Find Your Group Page
+* FAQ Page
 
-  ![W3C Validator test result](readme-images/group_page_no_errors.png)
+  ![W3C Validator test result](assets/css/testing-images/Lighthouse-test-FAQ-page.png)
 
-* Contact Us Page
-
-  ![W3C Validator test result](readme-images/contact_page_no_errors.png)
-
-* Thank You Page
-
-  ![W3C Validator test result](readme-images/thanks_page_no_errors.png)
+* Sign Up Page
+  ![W3C Validator test result](assets/css/testing-images/validator-w3-signup-page.png)
 
 The CSS Validator results are below:
 
-![W3C CSS Validator result](readme-images/css_validation_no_errors.png)
+![W3C CSS Validator result](assets/css/testing-images/validator-w3-jigsaw-css.png)
 
 ## Browser Compatibility
 
@@ -43,8 +38,7 @@ Testing of responsive design was carried out manually by utilizing [Google Chrom
 
 ## Fixed Bugs
 
-When validating the code, a few erros came up especially regarding the use of section, span elements and a few missing tags. 
-
+When validating the code, a few errors came up especially 
   
 | Bug | Section | Fix |
 | :----| :----| :--------:|
@@ -77,19 +71,14 @@ The application was also tested using [Google Lighthouse](https://developers.goo
 
 * Home Page
 
-  ![Lighthouse test result](readme-images/home_lighthouse.png)
+  ![Lighthouse test result](assets/css/testing-images/Lighthouse-Test-home-page.png) ***** performance
 
-* Find Your Group Page
+* FAQ Page
 
-  ![Lighthouse test result](readme-images/group_lighthouse.png)
+  ![Lighthouse test result](assets/css/testing-images/Lighthouse-test-FAQ-page.png)
 
-* Contact Us Page
+* Sign Up Page
 
-  ![Lighthouse test result](readme-images/contact_lighthouse.png)
-
-* Thank You Page
-
-  ![Lighthouse test result](readme-images/thanks_lighthouse.png)
-
+  ![Lighthouse test result](****** accessibility input labels)
 
 * Originally, my site results were poor on performance and on accessibility. I compressed all images using [the Squoosh app](https://squoosh.app/) and it improved the peformance significantly. As for accessibility, I added extra aria-labels especially for the form which increased the score substantialy.
