@@ -42,8 +42,8 @@ When validating the code, a few errors came up especially
   
 | Bug | Section | Fix |
 | :----| :----| :--------:|
-|Section element used without a header element | All pages |I changed most of the section elements without a header into a div element. On the Contact Us page, however, I included a header with display none, as I did not want to change the look of the page, but had wanted to use the semantically more appropriate element (section rather than div).|
-| Use of paragraph element within a span element| Contact Us page | I changed the span element into div element. |
+|Header element logo and nav bar alignment | Home page |I had help from tutor as i had difficulty aligning the logo/title to the left with the nav bar menu to the right. Adding another div and using Flex solved this. The alignment is now correct and the menu adapts from column for small screens to a row for larger screens. |
+| Overuse of margin and padding to align content| Sign Up page | The images, form and timetable  |
 | "li" element around anchor element for the map icon missing  | Find Your Group page  | I added the missing "li" tags  |
 | Navigation bar jumping up/moving when hovered on | All pages | I had to take away the padding which I had added to the anchor element in hover position and give it to the anchor element in static position. I also changes the border property for outline property which does not increase the size of the box. |
 | I used h1 instead of h2 in inappropriate places | All pages | I changes h1 to h2 in the relevant cases to improve accessibility and increase semantic sense. |
