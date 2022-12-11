@@ -137,7 +137,7 @@ ul {
     animation-fill-mode: forwards;
 }
 
-/* creates the level of zoom for hero image*/
+/* Creates the level of zoom for hero image*/
 
 @keyframes hero-zoom {
     from {

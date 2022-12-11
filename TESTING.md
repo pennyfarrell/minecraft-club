@@ -8,7 +8,7 @@ The results of HTML validation of each of the pages are as follows:
 
 * Home Page
 
-  ![W3C Validator test result]()
+  ![W3C Validator test result](assets/css/testing-images/validator-w3-home-page.png)
 
 * FAQ Page
 
@@ -71,7 +71,7 @@ The application was also tested using [Google Lighthouse](https://developers.goo
 
 * Home Page
 
-  ![Lighthouse test result](assets/css/testing-images/Lighthouse-Test-home-page.png) ***** performance
+  ![Lighthouse test result](assets/css/testing-images/Lighthouse-test-home-page.png) ***** performance
 
 * FAQ Page
 
