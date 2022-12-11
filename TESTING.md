@@ -43,13 +43,12 @@ When validating the code, a few errors came up especially
 | Bug | Section | Fix |
 | :----| :----| :--------:|
 |Header element logo and nav bar alignment | Home page |I had help from tutor as i had difficulty aligning the logo/title to the left with the nav bar menu to the right. Adding another div and using Flex solved this. The alignment is now correct and the menu adapts from column for small screens to a row for larger screens. |
-| Overuse of margin and padding to align content| Sign Up page | The images, form and timetable  |
-| "li" element around anchor element for the map icon missing  | Find Your Group page  | I added the missing "li" tags  |
-| Navigation bar jumping up/moving when hovered on | All pages | I had to take away the padding which I had added to the anchor element in hover position and give it to the anchor element in static position. I also changes the border property for outline property which does not increase the size of the box. |
-| I used h1 instead of h2 in inappropriate places | All pages | I changes h1 to h2 in the relevant cases to improve accessibility and increase semantic sense. |
-| No images showed when site was first deployed | All pages | I had used two dots (../) instead of just one dot (./) in the relative path for the images. This was easily corrected by taking away one of the dots. |
-| Images distorted/blurry | Find Your Group page | I used "object-fit: cover" to fix this issue. |
-| Footer overflowing on small screens | All pages | A min-width had been set to the email in the footer. I avoided this issue by substituting the long email address by an envelope icon. |
+| Overuse of margin and padding to align content| Sign Up page | There was a thick bar to the right side of the signup page on screen sizes from large mobile and upwards. Unicorn revealer showed that it was from the body margin. This had been accidentally changed to counteract the alignment of the signup images, form and timetable. The body margin was reverted and the content was aligned using <div> and Flexbox styling. |
+| HTML validator error "The value of the for attribute of the label element must be the ID of a non-hidden form control"  | Sign Up page  | I corrected the "ID" tags and made they were the same as the "name" tags. |
+| Images correct size but zoomed in to wrong area of image | All pages | I researched the styling options for images and used image-position: center to make sure the image was focused on the central area which showed the content I wanted to be most visible. |
+| I used h2 and then h4 without using h3 | Sign Up Page | I changed the h4 to h3 and this improved accessibility and semantic profile pf the page HTML. |
+| No video showed when site was first deployed | Home Page | I changed the file path and created a relative filepath which solved the error. |
+| Footer overflow when adding back-to-top button | All pages | A max-height command was added which fixed this error.
 
 
 ## Unfixed Bugs
@@ -71,7 +70,7 @@ The application was also tested using [Google Lighthouse](https://developers.goo
 
 * Home Page
 
-  ![Lighthouse test result](assets/css/testing-images/Lighthouse-test-home-page.png) ***** performance
+  ![Lighthouse test result](assets/css/testing-images/Lighthouse-test-home-page.png) 
 
 * FAQ Page
 
@@ -79,6 +78,6 @@ The application was also tested using [Google Lighthouse](https://developers.goo
 
 * Sign Up Page
 
-  ![Lighthouse test result](****** accessibility input labels)
+  ![Lighthouse test result](assets/css/testing-images/Lighthouse-test-signup-page.png)
 
 * Originally, my site results were poor on performance and on accessibility. I compressed all images using [the Squoosh app](https://squoosh.app/) and it improved the peformance significantly. As for accessibility, I added extra aria-labels especially for the form which increased the score substantialy.
