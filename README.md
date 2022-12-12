@@ -10,7 +10,7 @@ The site will have a high visual content with images and a video of designs crea
 
 <a href="https://pennyfarrell.github.io/minecraft-club/" target="_blank" rel="noopener">Stammer Out Loud and Build!</a>
 
-![Stammer Minecraft Club responsive design](assets/readme-images/amiresponsive-mockup.PNG)
+![Stammer Minecraft Club responsive design](assets/readme-images/amiresponsive-mockup.png)
 
 ## Features
 
@@ -21,7 +21,7 @@ The site will have a high visual content with images and a video of designs crea
 - Featured on all three pages, the fully responsive navigation bar includes links to the Home page, FAQ and Sign Up page. The navigation bar is identical on each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Minecraft Stammer Club nav bar](assets/readme-images/nav-bar.PNG)
+![Minecraft Stammer Club nav bar](assets/readme-images/nav-bar.png)
 
 # Contents
 
@@ -57,9 +57,9 @@ The site will have a high visual content with images and a video of designs crea
 
 ## Wireframes
 
-![Mobile wireframe page 1 - top]assets/readme-images/wireframe-mobile-top.PNG
+![Mobile wireframe page 1 - top](assets/readme-images/wireframe-mobile-top.png)
 
-![Mobile wireframe page 1 - top]assets/readme-images/wireframe-mobile-bottom.PNG
+![Mobile wireframe page 1 - top](assets/readme-images/wireframe-mobile-bottom.png)
 
 The wireframes were created on paper to sketch out ideas and then narrowed down to a first design in [Balsamiq](https://balsamiq.com). 
 
@@ -87,11 +87,11 @@ Stammer Minecraft Club has three pages. All pages can be easily accessed through
  * ### Color Scheme
       The chosen color scheme reflects the colors used in Minecraft Bedrock and are the colours most often used for earth blocks. The light font was selected for contrast against the dark green and dark brown. The colours were picked from Minecraft images using Canva. The shades and contrasts were compared and selected for optimum contrast using [WebAIM (Web Accessibility In Mind)](https://webaim.org/resources/contrastchecker/).
 
-![Canva Colour Palette image](assets/readme-images/color-palette.PNG)
+![Canva Colour Palette image](assets/readme-images/color-palette.png)
 
-![WebAIM Color Contrast Checker - dark brown background](assets/readme-images/WEB-AIM-contrast-check-dark-brown.PNG)
+![WebAIM Color Contrast Checker - dark brown background](assets/readme-images/WEB-AIM-contrast-check-dark-brown.png)
 
-![WebAIM Color Contrast Checker - dark green background](assets/readme-images/WEB-AIM-contrast-check-dark-green.PNG)
+![WebAIM Color Contrast Checker - dark green background](assets/readme-images/WEB-AIM-contrast-check-dark-green.png)
 
 [Back to top](#contents)
 
@@ -107,17 +107,17 @@ The logo is placed alongside the page header which is visible on each page. The 
 
 The Home Page has information and testimonials which illustrate the experience of club members to give first-hand descriptions of the real experience of being a club member. There are images showing the creations built in Minecraft during club sessions. There is a video narrated by a club member who stammers which aims to reassure potential new members that it really is ok to stammer in the club and to hear the voice of a real member. There is a description of the club groups which shows the age range that can attend and the schedule of sessions. The images are positioned to slightly reveal the next image and entice the user to scroll down the entire page.
 
-![Home Page - section 1](assets/readme-images/home-page-section-one.PNG)
+![Home Page - section 1](assets/readme-images/home-page-section-one.png)
 
-![Home Page - section 2](assets/readme-images/home-page-section-two.PNG)
+![Home Page - section 2](assets/readme-images/home-page-section-two.png)
 
-![Home Page - section 3](assets/readme-images/home-page-section-three.PNG)
+![Home Page - section 3](assets/readme-images/home-page-section-three.png)
 
-![Home Page - section 4](assets/readme-images/home-page-section-four.PNG)
+![Home Page - section 4](assets/readme-images/home-page-section-four.png)
 
 ### Navigation Menu
 
-![Navigation Menu](assets/readme-images/nav-bar.PNG)
+![Navigation Menu](assets/readme-images/nav-bar.png)
 
 * Navigation Bar is present on all three pages to make navigation of the website easy and quick. It contains links to Home, FAQ and Sign Up pages. Its design is consistent and identical on all of the pages. This feature enables the users to navigate from page to page without having to use the "back" button of the browser.
 
@@ -135,11 +135,11 @@ The landing page includes a large dynamic image from the Minecraft world which s
 
 ### Reasons Section
 
-![Testimonials Speech Bubble One](assets/readme-images/testimonial-speech-bubble-one.PNG)
+![Testimonials Speech Bubble One](assets/readme-images/testimonial-speech-bubble-one.png)
 
-![Testimonials Speech Bubble One](assets/readme-images/testimonial-speech-bubble-two.PNG)
+![Testimonials Speech Bubble One](assets/readme-images/testimonial-speech-bubble-two.png)
 
-![Testimonials Speech Bubble One](assets/readme-images/testimonial-speech-bubble-three.PNG)
+![Testimonials Speech Bubble One](assets/readme-images/testimonial-speech-bubble-three.png)
 
 This section introduces three reasons for joining the club represented by testimonials from existing members (peers of potential club members). The aim is to get new members interested in joining the club and to convey the value of gaming with other young people who stammer by their peers. The quotes help make the information relevant and relatable to young people visiting the website and demonstrates the value of the club to prospective parents/guardians. A contrast issue with the image titles used in this section was flagged by WAVE and subsequently fixed (see  [_file_](TESTING.md) for more details).
 [Back to top](#contents)
@@ -154,7 +154,7 @@ There is a video embedded on the home page with showing some of the Minecraft cr
 
 ### Club Timetable Section
 
-![Club Timetable](assets/readme-images/Club-Timetable.PNG)
+![Club Timetable](assets/readme-images/Club-Timetable.png)
 
 The purpose of this section is to succinctly show the age groups and times for each club session. The timetable is responsive on different device sizes to maximize visibility and help potential members easily access the structure of the groups (organised by age) and then identify the relevant time for that session. 
 
@@ -162,7 +162,7 @@ The purpose of this section is to succinctly show the age groups and times for e
 
 ### FAQ Section
 
-![FAQ Section](assets/readme-images/FAQ-section.PNG)
+![FAQ Section](assets/readme-images/FAQ-section.png)
 
 The main purpose of this section is to answer questions that either parents/guardians may have as well as young people themselves.
 An accordion style question-and-answer format was used to make the page look less busy, especially on smaller screens. The Font-awesome icons were used to differentiate the adult-young people sections. Colour contrasts were used to differentiate questions from answers. 
@@ -171,7 +171,7 @@ An accordion style question-and-answer format was used to make the page look les
 
 ### Footer
 
-![The Footer](assets/readme-images/Footer-section.PNG)
+![The Footer](assets/readme-images/Footer-section.png)
 
 The Footer section is consistent in design on all pages. It includes a clickable envelope icon which opens an email form on a blank page to make it easy to get connected by email. The Phone icon is clickable to easily connect a call to the club contact person. There are also links to social media pages including Facebook, Instagram and Twitter. All the social media links open in a new tab. There is a 'back to top' button so that site users can easily navigate back to the top menu and nav bar.
 
@@ -179,7 +179,7 @@ The Footer section is consistent in design on all pages. It includes a clickable
 
 ### Sign Up Page
 
-![Sign Up Form](assets/readme-images/Signup-form-section.PNG)
+![Sign Up Form](assets/readme-images/Signup-form-section.png)
 
 A sign up form is available for those who would like to express an interest in joining the club. There are options to select the relevant group so that the appropriate information is provided to the new member. There is a repeated timetable below the form so that site users can access the information again without having to navigate away from the page. All elements, such as parent/guardian name, young person's name, email address etc. are required. 
 
@@ -200,6 +200,8 @@ A sign up form is available for those who would like to express an interest in j
 * [Balsamiq](https://balsamiq.com/wireframes/) - used for creating the wireframes
 * [Gitpod](https://www.gitpod.io/#get-started) - used for deploying the website
 * [Github](https://github.com/) - used for hosting and editing the website
+* [WebAIM](https://webaim.org/resources/contrastchecker/) - color contrast checker
+* [WAVE](https://wave.webaim.org/) Web Accessibility Evaluation Tools
 
 [Back to top](#contents)
 
