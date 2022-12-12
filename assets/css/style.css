@@ -200,10 +200,14 @@ ul {
     flex-direction: column;
     flex-wrap: nowrap;
 }
-
+/* 
 .div-1-left {
     grid-area: 1 / 1 / 2 / 3;
     background-color: royalblue;
+} */
+
+.highlight {
+    background-color: #f5deb3;
 }
 
 #div-1-left-image {
