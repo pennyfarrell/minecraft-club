@@ -46,16 +46,18 @@ The initial test highlighted contrast errors with the title overlays on the home
 [WAVE Report - Contrast Error](assets/css/testing-images/WAVE image-text-contrast-error.png)
 
 I fixed this by increasing the contrast of the text background by wrapping a span around the text in HTML and styling the background to a higher contrast with CSS. The report shows this error has been fixed.
-
 [WAVE Report - Pass](assets/css/testing-images/WAVE-report.png)
 
 There are 4 alerts in the report. The footer contact have been flagged as potential headings. This is an unordered list and intentional, so I did not change the semantics here.
+
 [WAVE report - Headings Error](assets/css/testing-images/WAVE-report-alert-headings.png)
 
 The alert for a redundant link is for the active link to show which page a user is on. As this is an intended feature, this was not changed. 
+
 [WAVE report - Redundant Link Error](assets/css/testing-images/WAVE-report-alert-redundant-link.png)
 
 The alert for a HTML5 video relates the embedded video tour. As this is an intentional feature, this was retained.
+
 [WAVE report - HTML5 Video Error](assets/css/testing-images/WAVE-report-alert-video.png)
 
 ## MANUAL TESTING
@@ -64,7 +66,7 @@ The alert for a HTML5 video relates the embedded video tour. As this is an inten
 
 | Goals | How are they achieved? |
 | :--- | :--- |
-| `Visitor (Parent)` |
+| `Visitor (Parent/Guardian)` |
 |  |  |
 | Understand what the site is for and how to navigate the site. | Site logo and title explains the nature of the club and is included in the header on every page. |
 | Understand what the club is about, who it is for and the benefits for their child. | The description on the home page explains the ethos of the club and encourages potential new members to join. The images and testimonials successively build on the positive impressions and benefits of joining the club.|
