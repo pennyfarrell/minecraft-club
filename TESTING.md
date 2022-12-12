@@ -12,10 +12,10 @@ The results of HTML validation of each of the pages are as follows:
 
 * FAQ Page
 
-  ![W3C Validator test result](assets/css/testing-images/Lighthouse-test-FAQ-page.png)
+  ![W3C Validator test result](assets/css/testing-images/validator-w3-faq-page.png)
 
 * Sign Up Page
-  ![W3C Validator test result](assets/css/testing-images/validator-w3-signup-page.png)
+  ![W3C Validator test result](assets/css/testing-images/validator-css-signup-page.png)
 
 The CSS Validator results are below:
 
