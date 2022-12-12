@@ -36,6 +36,8 @@ Testing of responsive design was carried out manually by utilizing [Google Chrom
 | Links  | pass       | pass         | pass     | pass      | pass     | pass            | pass            |
 
 
+
+## 
 ## Fixed Bugs
 
 When validating the code, a few errors came up especially 

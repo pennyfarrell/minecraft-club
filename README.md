@@ -99,6 +99,10 @@ Stammer Minecraft Club has three pages. All pages can be easily accessed through
 
 Stammer Minecraft Club is meant to be fun, playful and welcoming with appeal to both young people and their parents/guardians. The Navigation bar makes finding the necessary information simple and the layout is responsive. All hypertext links open in a new page. The sign up form invites the parents/guardians to sign up to the relevant group. 
 
+## Logo and Matching Favicon
+
+The logo is placed alongside the page header which is visible on each page. The image selected was a creeper face which is strongly associated with Minecraft and worked well as a small image. Alternative images associated with Minecraft would not have scaled down well, so character skins or Mobs were not used. There are two facial expressions of creeper heads (sad or smiling) so the smiling version was used to indicate that this is a fun game and promote the expectation of a positive experience. For continuity, the logo was also converted to a Favicon. 
+
 ## Home Page
 
 The Home Page has information and testimonials which illustrate the experience of club members to give first-hand descriptions of the real experience of being a club member. There are images showing the creations built in Minecraft during club sessions. There is a video narrated by a club member who stammers which aims to reassure potential new members that it really is ok to stammer in the club and to hear the voice of a real member. There is a description of the club groups which shows the age range that can attend and the schedule of sessions. The images are positioned to slightly reveal the next image and entice the user to scroll down the entire page.
@@ -267,7 +271,7 @@ Take the following steps to create a clone of a project:
 * The code for the accordion styling of the FAQ section was taken from a blog post by [Felix Dusengimana](https://dev.to/felixdusengimana/.lets-create-an-faq-section-with-html-and-css-only-detail-tag-explained-12gf) and the related [codepen.io](https://codepen.io/phelixdusengimana/pen/ExQNMME).
 * The code for the back-to-top button was taken from [Atul Prajapati](https://dev.to/atulcodex/scroll-to-top-button-with-just-html-css-1c2).
 * The fonts were downloaded from [Google Fonts](https://fonts.google.com/).
-* The Favicon was created usig [Fonticon](https://fontawesome.com/icons/fonticons).
+* The Favicon was created using [Favicon.io](https://favicon.io/favicon-converter/).
 * The color palate was found using [Color Picker From Image](https://colorpickerfromimage.com/).
 * The icons were found at [Font Awesome](https://fontawesome.com/).
 * [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
@@ -275,7 +279,7 @@ Take the following steps to create a clone of a project:
 
 ## Media
 
-* The Fonticon and title logo was taken from [Fonticon](https://fonticon.github.io/fonticon/#/select).
+* The Favicon and title logo were taken from [Fonticon](https://fonticon.github.io/fonticon/#/select).
 * The logo was a Minecraft creeper with the image sourced from [Planet Minecraft](https://www.planetminecraft.com/server/smiling-creeper-266028/)
 * The images were personal images from the club I run in real life.
 * The video was an extract from a video I made for another advocacy project called "Here All Along" to highlight the need for more stammered speech to feature in mainstream media. * This project was recorded from the club I run and submitted to [ISAD.live 2022](https://isad.live/isad-2022/papers-presented-by/kids-corner/here-all-along-penny-farrell/).
