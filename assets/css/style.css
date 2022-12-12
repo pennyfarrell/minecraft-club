@@ -1028,14 +1028,13 @@ input[label] {
 }
 
 #submit {
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #3B5822;
 }
 
 .join-button {
-    margin-top: auto;
-    margin-bottom: 8px;
-    border-radius: 2px;
-    padding: 10px 22px 10px 22px;
+    padding: 10px;
     text-align: center;
     font-size: 1.3rem;
     background-color: #3B5822;
@@ -1078,7 +1077,7 @@ td {
 
 .build-title>h2 {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-family: 'Archivo Narrow', sans-serif;
     color: #f5deb3;
     text-shadow: 2px 2px black;
