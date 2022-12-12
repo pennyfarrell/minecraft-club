@@ -46,19 +46,19 @@ The initial test highlighted contrast errors with the title overlays on the home
 [WAVE Report - Contrast Error](assets/css/testing-images/WAVE image-text-contrast-error.png)
 
 I fixed this by increasing the contrast of the text background by wrapping a span around the text in HTML and styling the background to a higher contrast with CSS. The report shows this error has been fixed.
-[WAVE Report - Pass](assets/css/testing-images/WAVE-report.png)
+![WAVE Report - Pass](assets/css/testing-images/WAVE-report.png)
 
 There are 4 alerts in the report. The footer contact have been flagged as potential headings. This is an unordered list and intentional, so I did not change the semantics here.
 
-[WAVE report - Headings Error](assets/css/testing-images/WAVE-report-alert-headings.png)
+![WAVE report - Headings Error](assets/css/testing-images/WAVE-report-alert-headings.png)
 
 The alert for a redundant link is for the active link to show which page a user is on. As this is an intended feature, this was not changed. 
 
-[WAVE report - Redundant Link Error](assets/css/testing-images/WAVE-report-alert-redundant-link.png)
+![WAVE report - Redundant Link Error](assets/css/testing-images/WAVE-report-alert-redundant-link.png)
 
 The alert for a HTML5 video relates the embedded video tour. As this is an intentional feature, this was retained.
 
-[WAVE report - HTML5 Video Error](assets/css/testing-images/WAVE-report-alert-video.png)
+![WAVE report - HTML5 Video Error](assets/css/testing-images/WAVE-report-alert-video.png)
 
 ## MANUAL TESTING
 
