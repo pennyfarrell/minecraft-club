@@ -141,7 +141,7 @@ The landing page includes a large dynamic image from the Minecraft world which s
 
 ![Testimonials Speech Bubble One](assets/readme-images/testimonial-speech-bubble-three.PNG)
 
-This section introduces three reasons for joining the club represented by testimonials from existing members (peers of potential club members). The aim is to get new members interested in joining the club and to convey the value of gaming with other young people who stammer by their peers. The quotes help make the information relevant and relatable to young people visiting the website and demonstrates the value of the club to prospective parents/guardians.
+This section introduces three reasons for joining the club represented by testimonials from existing members (peers of potential club members). The aim is to get new members interested in joining the club and to convey the value of gaming with other young people who stammer by their peers. The quotes help make the information relevant and relatable to young people visiting the website and demonstrates the value of the club to prospective parents/guardians. A contrast issue with the image titles used in this section was flagged by WAVE and subsequently fixed (see  [_file_](TESTING.md) for more details).
 [Back to top](#contents)
 
 ### Video
@@ -185,20 +185,11 @@ A sign up form is available for those who would like to express an interest in j
 
 [Back to top](#contents)
 
-## Thank You Page
-
-### Thank You Message
-
-![Thank you message](readme-images/thank_you.png)
-
-A thank you message is displayed after filling in the contact form and the survey. The usual navigation links are available for the user to be able to return to the page of interest.
-
-[Back to top](#contents)
-
 ### Future Features 
 
 * I would add an additional page with a gallery to showcase more images of the creations made by the group. 
 * I would add an information section about the organisation and club leaders. However, as this is a not a real organisation, I decided to focus on other features for the purposes of the assignment. 
+* I would add JavaScript to automate an email being sent to the group organiser after a user filled out the signup form. 
 
 [Back to top](#contents)
 
