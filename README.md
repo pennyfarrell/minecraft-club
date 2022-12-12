@@ -57,19 +57,27 @@ The site will have a high visual content with images and a video of designs crea
 
 ## Wireframes
 
+The wireframes were created on paper to sketch out ideas and then narrowed down to a first design in [Balsamiq](https://balsamiq.com). 
+
+Originally, I designed desktop first but after advice from my tutor, I changed to coding mobile-first. This shows the outline for Desktop. The design for the home page changed the most when mobile-first design was implemented. The FAQ and SIgnUp page design and layout did not change significantly between desktop and mobile screens, but the sizing of each component needed to be responsive across devices.
+
+![2nd version of Desktop wireframe - all pages](assets/readme-images/balsamiq-desktop-wireframe-three-pages.png)
+
+I then created a new wireframe for mobiles. This approach later led to simpler media queries. I focused on the home page in the wireframe because the layout changes were most significant on that particular page.
+
 ![Mobile wireframe page 1 - top](assets/readme-images/wireframe-mobile-top.png)
 
 ![Mobile wireframe page 1 - top](assets/readme-images/wireframe-mobile-bottom.png)
 
-The wireframes were created on paper to sketch out ideas and then narrowed down to a first design in [Balsamiq](https://balsamiq.com). 
+I originally at the top of the home page below the hero image but I wanted to increase the visual appeal and generate maximum interest in the club overall, so I moved the timetable with the age groups to lower down the home page. This meant it was very clear who the target audience for the club is aimed at but I prioritised generating an interest in joining the club in my design. 
 
-Originally, I designed desktop first but after advice from my tutor, I changed to coding mobile-first. I then created a new wireframe for mobiles. This approach later led to simpler media queries. 
+![Desktop Wireframe - Original Design](assets/readme-images/balsamiq-desktop-wireframe-three-pages-original.png)
 
-I originally had the timetable on page two with a gallery but I moved the timetable with the age groups to the home page so that it was very clear who the target audience for the club is. As there is a lot of content on the home page, I added a 'back-to-top' button to make it easier for the user to navigate back to the nav bar. 
+As there is a lot of content on the home page in a mobile-first design, I added a 'back-to-top' button to make it easier for the user to navigate back to the nav bar, but this was not in my original desktop design. 
 
-I added an FAQ page to my second page with questions and answers directed at both parents/guardians as well as young people, to reflect the different needs of each user type.
+I added an accordion style to the FAQ page so that the page would not look busy and to draw attention to the fact that there were two sections for each user (parent/guardian and young people). If the accordion design was not utilised, the lower section was not visible and users would not know to navigate there. 
 
-I left out the gallery because I decide to incorporate the images throughout the website to weave the visuals across the whole site instead of grouping them in one place.The intention was to give the whole site a sense of fun to appeal to young people, and to immerse the user in a Minecraft-like environment throughout the site. 
+I took out the gallery from my original design because I decided to incorporate the images throughout the website to weave the visuals across the whole site instead of grouping them in one place. The intention was to give the whole site a sense of fun to appeal to young people, and to immerse the user in a Minecraft-like environment throughout the site. I also needed to ensure that the information on ther other site pages were visited and thought a user may get distracted by the gallery on the home page and not end up progressing through the remainder of the site.
 
 [Back to top](#contents)
 
