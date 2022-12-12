@@ -74,7 +74,6 @@ The alert for a HTML5 video relates the embedded video tour. As this is an inten
 | Complete signup form as call-to-action | Parent/guardians will have different queries to club members so there are two sections for FAQs. Common queries are addressed which also provide information about the club including tech requirements. |
 | Find information about timetable | Parent/guardians would use the timetable on the home page to gain information about the ages and schedule of sessions. The timetable is repeated under the signup form to refresh their memory of the schedule without having to return to the home page to seek the information. |
 | Easily call or email organiser using links in Footer | Parent/guardians may wish to direct specific queries by contacting the organiser. The links embedded in the Footer enable contact to be made directly from the page without navigating away from the site.  |
-
 |`Visitor (Young Person)` |
 |  |  |
 | Understand what the site is for and how to navigate the site. | Site logo and title explains the nature of the club and is included in the header on every page. |
@@ -82,7 +81,6 @@ The alert for a HTML5 video relates the embedded video tour. As this is an inten
 | Feel enthused and motivated to join | The color theme and logo are associated with Minecraft. There are plenty of visuals and a video tour throughout the site which will help young users to know what to expect from joining the club and to feel inspired to join by viewing the creative content that the club has already made. A highly appealing visual appeal was a priority in the deign of this site. |
 | Find answers to common questions | Young users/potential club members will have different queries to parents/adults so their questions were collated into a sepcific section. Common queries are addressed which also provide information about the club which aim to reassure, encourage and support members to give the club a try. |
 | Find information about the game play and what happens during a session | The video tour on the home page illustrates the game play and the voice over is a young person who stammers, which is encouraging to potential new members as they hear stammering and know that stammering is ok and the club is  safe, encouraging place to stammer in. |
-
 |`Visitor (Other e.g. Teacher)` |
 |  |  |
 | Understand how to navigate the site | The logo, title and nav bar shows a new user the content available across the site. |
