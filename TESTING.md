@@ -37,7 +37,12 @@ Testing of responsive design was carried out manually by utilizing [Google Chrom
 
 
 
-## 
+## WAVE Testing
+
+I have used the WAVE testing tool to try and ensure there are no accessibility issues with my site. 
+[WAVE](http://wave.webaim.org/) (Web Accessibility Evaluation Tool) allows developers to create content that is more accessible to users with disabilities. It does this by identifying accessibility and WGAC errors.
+
+
 ## Fixed Bugs
 
 When validating the code, a few errors came up especially 
