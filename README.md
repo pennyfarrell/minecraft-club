@@ -270,6 +270,7 @@ Take the following steps to create a clone of a project:
 * Further learning about using media queries came from Joy Shaheb at [FreeCodeCamp](https://www.freecodecamp.org/news/learn-css-media-queries-by-building-projects/).
 * The contrast error for the home page testimonial image titles was resolved with a span suggestion, taken from a blog post by [Go Make Things](https://gomakethings.com/highlighting-effect-with-css/).
 * The framework for the readme file was inspired by a layout from a cohort peer who had received a layout template from their mentor: [lucia2007](https://github.com/lucia2007/tennis-for-all) and [Kera Cudmore README Examples](https://github.com/kera-cudmore/readme-examples).
+* Further learning about using Markdown was accessed from a cheatsheet written by [Adam Pritchard](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet).
 
 ## Media
 
