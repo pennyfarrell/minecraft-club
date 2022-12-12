@@ -39,13 +39,28 @@ Testing of responsive design was carried out manually by utilizing [Google Chrom
 
 ## WAVE Testing
 
-I have used the WAVE testing tool to try and ensure there are no accessibility issues with my site. 
+I used the WAVE testing tool to try and ensure there are no accessibility issues with my site. 
 [WAVE](http://wave.webaim.org/) (Web Accessibility Evaluation Tool) allows developers to create content that is more accessible to users with disabilities. It does this by identifying accessibility and WGAC errors.
 
+The initial test highlighted contrast errors with the title overlays on the home page testimonial section. 
+[WAVE Report - Contrast Error](assets/css/testing-images/WAVE image-text-contrast-error.png)
+
+I fixed this by increasing the contrast of the text background by wrapping a span around the text in HTML and styling the background to a higher contrast with CSS. The report shows this error has been fixed.
+
+[WAVE Report - Pass](assets/css/testing-images/WAVE-report.png)
+
+There are 4 alerts in the report. The footer contact have been flagged as potential headings. This is an unordered list and intentional, so I did not change the semantics here.
+[WAVE report - Headings Error](assets/css/testing-images/WAVE-report-alert-headings.png)
+
+The alert for a redundant link is for the active link to show which page a user is on. As this is an intended feature, this was not changed. 
+[WAVE report - Redundant Link Error](assets/css/testing-images/WAVE-report-alert-redundant-link.png)
+
+The alert for a HTML5 video relates the embedded video tour. As this is an intentional feature, this was retained.
+[WAVE report - HTML5 Video Error](assets/css/testing-images/WAVE-report-alert-video.png)
 
 ## Fixed Bugs
 
-When validating the code, a few errors came up especially 
+When validating the code, a few errors came up. these have been fixed. This is a summary of the main errors and steps taken to fix it: 
   
 | Bug | Section | Fix |
 | :----| :----| :--------:|
@@ -55,7 +70,7 @@ When validating the code, a few errors came up especially
 | Images correct size but zoomed in to wrong area of image | All pages | I researched the styling options for images and used image-position: center to make sure the image was focused on the central area which showed the content I wanted to be most visible. |
 | I used h2 and then h4 without using h3 | Sign Up Page | I changed the h4 to h3 and this improved accessibility and semantic profile pf the page HTML. |
 | No video showed when site was first deployed | Home Page | I changed the file path and created a relative filepath which solved the error. |
-| Footer overflow when adding back-to-top button | All pages | A max-height command was added which fixed this error.
+| Footer overflow when adding back-to-top button | All pages | A max-height command was added which fixed this error.|
 
 
 ## Unfixed Bugs
@@ -87,4 +102,4 @@ The application was also tested using [Google Lighthouse](https://developers.goo
 
   ![Lighthouse test result](assets/css/testing-images/Lighthouse-test-signup-page.png)
 
-* Originally, my site results were poor on performance and on accessibility. I compressed all images using [the Squoosh app](https://squoosh.app/) and it improved the peformance significantly. As for accessibility, I added extra aria-labels especially for the form which increased the score substantialy.
+* Originally, my home page results was poor on performance. I compressed the images and changed the video preload to "none" which improved the performance. For accessibility, I fixed the input aria-labels in the sign-up form which increased the score substantially.
