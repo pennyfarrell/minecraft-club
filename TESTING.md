@@ -66,7 +66,7 @@ The alert for a HTML5 video relates the embedded video tour. As this is an inten
 
 | Goals | How are they achieved? |
 | :--- | :--- |
-| `Visitor (Parent/Guardian)` |
+| Visitor (Parent/Guardian) |
 |  |  |
 | Understand what the site is for and how to navigate the site. | Site logo and title explains the nature of the club and is included in the header on every page. |
 | Understand what the club is about, who it is for and the benefits for their child. | The description on the home page explains the ethos of the club and encourages potential new members to join. The images and testimonials successively build on the positive impressions and benefits of joining the club.|
@@ -74,7 +74,7 @@ The alert for a HTML5 video relates the embedded video tour. As this is an inten
 | Complete signup form as call-to-action | Parent/guardians will have different queries to club members so there are two sections for FAQs. Common queries are addressed which also provide information about the club including tech requirements. |
 | Find information about timetable | Parent/guardians would use the timetable on the home page to gain information about the ages and schedule of sessions. The timetable is repeated under the signup form to refresh their memory of the schedule without having to return to the home page to seek the information. |
 | Easily call or email organiser using links in Footer | Parent/guardians may wish to direct specific queries by contacting the organiser. The links embedded in the Footer enable contact to be made directly from the page without navigating away from the site.  |
-|`Visitor (Young Person)` |
+|Visitor (Young Person) |
 |  |  |
 | Understand what the site is for and how to navigate the site. | Site logo and title explains the nature of the club and is included in the header on every page. |
 | Understand what the club is about, who it is for and what is appealing about the club. | The description on the home page explains the ethos of the club and encourages potential new members to join. The images and testimonials are from existing members (peers) which successively builds on the positive impressions and benefits of joining the club. |
