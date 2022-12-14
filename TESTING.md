@@ -119,13 +119,17 @@ When validating the code, a few errors came up. these have been fixed. This is a
 | Images correct size but zoomed in to wrong area of image | All pages | I researched the styling options for images and used image-position: center to make sure the image was focused on the central area which showed the content I wanted to be most visible. |
 | I used h2 and then h4 without using h3 | Sign Up Page | I changed the h4 to h3 and this improved accessibility and semantic profile pf the page HTML. |
 | No video showed when site was first deployed | Home Page | I changed the file path and created a relative filepath which solved the error. |
-| Footer overflow when adding back-to-top button | All pages | A max-height command was added which fixed this error.|
 | Signup image title position | Signup page | The title overlaying the hero image of the signup page was styled to be responsive in size and position, however the CSS settings that worked for specific numerical breakpoints (320px, 475px, 768px, 1024px, 1440px) did not work as expected when testing on device-specific sizes (iPhone 5/Samsung tablet). The absolute position caused the title to be located in the incorrect place. After several attempts to adjust the position settings, the title was altered to be a separate h2 title above the image. This was not the intended style but it was more reliable and consistently responsive.|
-
+| Media Queries Layout | All Pages | The media queries were written and organised by page. My mentor explained that industry standards is to write media queries by screen sizes. I edited the organisation but this caused huge issues with my website, likely due to specificity rules in css. As this occurred 2 days before submission, I reverted the media queries to the original layout. I will make sure to layout and organise media queries by screen sizes in my future projects. |
+| Footer overflow when adding back-to-top button | All pages | A max-height command was added which fixed this error.|
+| Sizing and Alignment Errors (after re-arranging media queries) | All pages | The media queries were written by page. My tutor recommended that I order them by screen size, as per industry standards. This was completed however the website sizing and alignment was severely impacted. As this occurred two days before submission, the layout of media queries was reverted. Future projects will be written according to industry standards. |
 
 ## Unfixed Bugs
 
-There are no known bugs in the project.
+This is the known bug that remains on the site. 
+| Bug | Section | Attempted Fixes |
+| :----| :----| :--------:|
+| Video border | Home Page | The video has a thick black border surrounding it. Various attempts to fix this included border or outline (none), changing height/width, removing playsinline command. Altering object-fit settings did not elicit any change except for object-fit: none which enlarged the video to such magnification that it was blurry. My tutor tried some bug-fixing and could not remove the black border. It may be due to the aspect ratio of the original video. Due to the submission deadline arriving, I have not managed to find a solution for this bug. I valued the video and the content it provided so I decided to keep the video despite the border issue and will continue to learn more about why this might have happened. | 
 
 ## Additional Testing
 
@@ -136,7 +140,6 @@ The application was also tested using [Google Lighthouse](https://developers.goo
 * Accessibility - shows if the site if accessible for all users and suggests ways to improve it
 * Best Practices - indicates if the site conforms to industry best practices
 * SEO - Search Engine Optimisation - shows if the site is optimised for search engine result rankings
-
 
 ### Results from Lighthouse 
 
