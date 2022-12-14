@@ -78,7 +78,7 @@ The alert for a redundant link is for the active link to show which page a user 
 
 The alert for a HTML5 video relates the embedded video tour. As this is an intentional feature, this was retained.
 
-![WAVE report - HTML5 Video Error](assets/testing-images/WAVE-report-alert-video.png)
+![WAVE report - Screenshot of Video](assets/testing-images/video-screenshot.webp)
 
 ## MANUAL TESTING
 

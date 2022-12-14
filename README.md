@@ -12,17 +12,6 @@ The site will have a high visual content with images and a video of designs crea
 
 ![Stammer Minecraft Club responsive design](assets/readme-images/amiresponsive-mockup.png)
 
-## Features
-
-### Existing Features
-
-- _Navigation Bar_
-
-- Featured on all three pages, the fully responsive navigation bar includes links to the Home page, FAQ and Sign Up page. The navigation bar is identical on each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
-
-![Minecraft Stammer Club nav bar](assets/readme-images/nav-bar.png)
-
 # Contents
 
 * [**User Experience**](#user-experience)
