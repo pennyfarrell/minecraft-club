@@ -8,18 +8,18 @@ The results of HTML validation of each of the pages are as follows:
 
 * Home Page
 
-  ![W3C Validator test result](assets/css/testing-images/validator-w3-home-page.png)
+  ![W3C Validator test result](assets/testing-images/validator-w3-home-page.png)
 
 * FAQ Page
 
-  ![W3C Validator test result](assets/css/testing-images/validator-w3-faq-page.png)
+  ![W3C Validator test result](assets/testing-images/validator-w3-faq-page.png)
 
 * Sign Up Page
-  ![W3C Validator test result](assets/css/testing-images/validator-css-signup-page.png)
+  ![W3C Validator test result](assets/testing-images/validator-css-signup-page.png)
 
 The CSS Validator results are below:
 
-![W3C CSS Validator result](assets/css/testing-images/validator-w3-jigsaw-css.png)
+![W3C CSS Validator result](assets/testing-images/validator-w3-jigsaw-css.png)
 
 ## Browser Compatibility
 
@@ -35,7 +35,27 @@ Testing of responsive design was carried out manually by utilizing [Google Chrom
 | Images | pass       | pass         | pass     | pass      | pass     | pass            | pass            |
 | Links  | pass       | pass         | pass     | pass      | pass     | pass            | pass            |
 
+See screenshots of pages from different screen sizes to illustarte the responsive deisgn changes according to the screen size:
 
+###iPhone 5
+
+![iPhone 5 - Home Page](assets/testing-images/iphon-5-home.png)
+
+![iPhone 5 - FAQ Page](assets/testing-images/iphone-5-faq.png)
+
+![iPhone 5 - Sign up Page](assets/testing-images/iphone-5-signup.png)
+
+###iPad
+
+![iPad - FAQ Page](assets/testing-images/iPad-home.png)
+
+![iPad - FAQ Page](assets/testing-images/iPad-faq-signup.png)
+
+###iPad Pro
+
+![iPad Pro - FAQ Page](assets/testing-images/iPad-Pro-home.png)
+
+![iPad Pro - FAQ Page](assets/testing-images/iPad-Pro-faq-signup.png)
 
 ## WAVE Testing
 
@@ -46,19 +66,19 @@ The initial test highlighted contrast errors with the title overlays on the home
 [WAVE Report - Contrast Error](assets/css/testing-images/WAVE image-text-contrast-error.png)
 
 I fixed this by increasing the contrast of the text background by wrapping a span around the text in HTML and styling the background to a higher contrast with CSS. The report shows this error has been fixed.
-![WAVE Report - Pass](assets/css/testing-images/WAVE-report.png)
+![WAVE Report - Pass](assets/testing-images/WAVE-report.png)
 
 There are 4 alerts in the report. The footer contact have been flagged as potential headings. This is an unordered list and intentional, so I did not change the semantics here.
 
-![WAVE report - Headings Error](assets/css/testing-images/WAVE-report-alert-headings.png)
+![WAVE report - Headings Error](assets/testing-images/WAVE-report-alert-headings.png)
 
 The alert for a redundant link is for the active link to show which page a user is on. As this is an intended feature, this was not changed. 
 
-![WAVE report - Redundant Link Error](assets/css/testing-images/WAVE-report-alert-redundant-link.png)
+![WAVE report - Redundant Link Error](assets/testing-images/WAVE-report-alert-redundant-link.png)
 
 The alert for a HTML5 video relates the embedded video tour. As this is an intentional feature, this was retained.
 
-![WAVE report - HTML5 Video Error](assets/css/testing-images/WAVE-report-alert-video.png)
+![WAVE report - HTML5 Video Error](assets/testing-images/WAVE-report-alert-video.png)
 
 ## MANUAL TESTING
 
@@ -122,15 +142,15 @@ The application was also tested using [Google Lighthouse](https://developers.goo
 
 * Home Page
 
-  ![Lighthouse test result](assets/css/testing-images/Lighthouse-test-home-page.png) 
+  ![Lighthouse test result](assets/testing-images/Lighthouse-test-home-page.png) 
 
 * FAQ Page
 
-  ![Lighthouse test result](assets/css/testing-images/Lighthouse-test-FAQ-page.png)
+  ![Lighthouse test result](assets/testing-images/Lighthouse-test-FAQ-page.png)
 
 * Sign Up Page
 
-  ![Lighthouse test result](assets/css/testing-images/Lighthouse-test-signup-page.png)
+  ![Lighthouse test result](assets/testing-images/Lighthouse-test-signup-page.png)
 
 * Originally, my home page result was poor on performance. I compressed the images and changed the video preload to "none" which improved the performance. For accessibility, I fixed the input aria-labels in the sign-up form which increased the score substantially.
 
@@ -147,7 +167,7 @@ The application was also tested using [Google Lighthouse](https://developers.goo
 | **Footer** |
 |  |  |  |  |  |
 | Social Media Links| When a social media icon is clicked, a new tab will open for the corresponding social media page. | Clicked link | New tab opens and redirects to the corresponding social media page for each of the social media icons | Pass |
-| Telephone and Email Links | When the icon or contact information is clicked, the user will be redirected to make a call or send an email to the organiser. | Clicked Telephone and Email icons | Telephone opens a op-up window with the corrcet phone number in it. Email opens up a new window with an email addressed to the organiser. | Pass |
+| Telephone and Email Links | When the icon or contact information is clicked, the user will be redirected to make a call or send an email to the organiser. | Clicked Telephone and Email icons | Telephone opens a op-up window with the correct phone number in it. Email opens up a new window with an email addressed to the organiser. | Pass |
 | **Home Page - Video** |
 |  |  |  |  |  |
 | Video | When clicked the video will play with sound on mute and visible controls to pause/play/turn on volume. | Clicked link | When clicked the video will play with sound on 
