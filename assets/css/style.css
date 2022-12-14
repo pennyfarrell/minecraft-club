@@ -200,11 +200,6 @@ ul {
     flex-direction: column;
     flex-wrap: nowrap;
 }
-/* 
-.div-1-left {
-    grid-area: 1 / 1 / 2 / 3;
-    background-color: royalblue;
-} */
 
 .highlight {
     background-color: #f5deb3;
@@ -425,6 +420,11 @@ video {
 }
 
 /* Club timetable */
+/* 
+.table {
+    padding-top: 6px;
+} */
+
 
 .club-times {
     display: flex;
@@ -1035,9 +1035,12 @@ input[label] {
     display: flex;
     flex-direction: column;
     background-color: #3B5822;
+    width: fit-content;
+    margin: auto;
 }
 
 .join-button {
+    width: 25%;
     padding: 10px;
     text-align: center;
     font-size: 1.3rem;
