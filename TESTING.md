@@ -37,7 +37,7 @@ Testing of responsive design was carried out manually by utilizing [Google Chrom
 
 See screenshots of pages from different screen sizes to illustarte the responsive deisgn changes according to the screen size:
 
-###iPhone 5
+## iPhone 5 Responsiveness Testing
 
 ![iPhone 5 - Home Page](assets/testing-images/iphon-5-home.png)
 
@@ -45,17 +45,29 @@ See screenshots of pages from different screen sizes to illustarte the responsiv
 
 ![iPhone 5 - Sign up Page](assets/testing-images/iphone-5-signup.png)
 
-###iPad
+### iPad Responsiveness Testing
 
-![iPad - FAQ Page](assets/testing-images/iPad-home.png)
+![iPad - Home Page](assets/testing-images/iPad-home.png)
 
-![iPad - FAQ Page](assets/testing-images/iPad-faq-signup.png)
+![iPad - FAQ & Sign Up Page](assets/testing-images/iPad-faq-signup.png)
 
-###iPad Pro
+### iPad Pro Responsiveness Testing
 
-![iPad Pro - FAQ Page](assets/testing-images/iPad-Pro-home.png)
+![iPad Pro - Home Page](assets/testing-images/iPad-Pro-home.png)
 
-![iPad Pro - FAQ Page](assets/testing-images/iPad-Pro-faq-signup.png)
+![iPad Pro - FAQ & Sign Up Page](assets/testing-images/iPad-Pro-faq-signup.png)
+
+### Laptop (1024px) Responsiveness Testing
+
+![Laptop (1024px) - Home Page](assets/testing-images/Laptop-1024px-home.png)
+
+![Laptop (1024px)- FAQ & Sign Up Page](assets/testing-images/Laptop-1024px-faq-signup.png)
+
+### Extra-Wide Laptop (1440px) Responsiveness Testing
+
+![Laptop (1440px) - Home Page](assets/testing-images/Laptop-1440px-home.png)
+
+![Laptop (1440px)- FAQ & Sign Up Page](assets/testing-images/Laptop-1440px-faq-signup.png)
 
 ## WAVE Testing
 
