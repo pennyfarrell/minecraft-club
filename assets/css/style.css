@@ -420,11 +420,6 @@ video {
 }
 
 /* Club timetable */
-/* 
-.table {
-    padding-top: 6px;
-} */
-
 
 .club-times {
     display: flex;
@@ -507,231 +502,6 @@ footer {
     color: #3B5822;
     font-size: 0.8rem;
     border: 1px solid #3B5822;
-}
-
-/* Media queries for home page */
-
-@media screen and (min-width: 768px) {
-
-    main {
-        flex-grow: 1.5;
-    }
-
-    body {
-        width: auto;
-    }
-
-    .container {
-        font-size: 150%;
-        padding: 8px;
-    }
-
-    #menu {
-        font-size: 1.2rem;
-    }
-
-    #menu li {
-        padding: 4px;
-    }
-
-    ul {
-        display: flex;
-        flex-direction: row;
-    }
-
-    #hero-text {
-        top: 85%;
-        width: 40rem;
-    }
-
-    h2 {
-        font-size: 140%;
-    }
-
-    h3 {
-        font-size: 115%;
-    }
-
-    #club-ethos {
-        font-size: 1.3rem;
-    }
-
-    .our-club-title {
-        font-size: 200%;
-        text-shadow: 3px 3px #503A26;
-    }
-
-    #div-1-left-image,
-    #div-1-center-image,
-    #div-1-right-image {
-        height: 325px;
-        font-size: 2em;
-    }
-
-    .bubble-quote-one,
-    .bubble-quote-two,
-    .bubble-quote-three {
-        font-size: 18px;
-        width: 450px;
-    }
-
-    #club-times-title {
-        font-size: 3em;
-    }
-
-    video {
-        width: 100%;
-        height: auto;
-    }
-
-    #video-tour {
-        height: 400px;
-    }
-
-    #times {
-        font-size: 150%;
-    }
-
-    .contact-footer {
-        font-size: 150%;
-    }
-
-    .social-media {
-        font-size: 1.7rem;
-        line-height: 170%;
-        justify-content: space-evenly;
-    }
-
-    .top {
-        font-size: 110%;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    h1 {
-        font-size: 150%;
-    }
-
-    #menu {
-        font-size: 110%
-    }
-
-    #hero-text {
-        width: 57rem;
-        height: 4em;
-        font-size: 170%;
-    }
-
-    #club-ethos {
-        font-size: 150%;
-        text-shadow: 1px 1px black;
-        padding: 14px 40px 14px 40px;
-        line-height: 34px;
-    }
-
-    .our-club-title {
-        font-size: 260%;
-    }
-
-    .parent-1 {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        padding: 4px 2px 4px 4px;
-    }
-
-    #one {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        padding-bottom: 10px;
-    }
-
-    #two {
-        display: flex;
-        flex-direction: row-reverse;
-        flex-wrap: nowrap;
-        padding-bottom: 10px;
-    }
-
-    #three {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        padding-bottom: 10px;
-    }
-
-    #div-1-left-image,
-    #div-1-center-image,
-    #div-1-right-image {
-        height: 400px;
-        font-size: 2.2em;
-        width: 75%;
-    }
-
-    .bubble-quote-one,
-    .bubble-quote-two,
-    .bubble-quote-three {
-        font-size: 20px;
-        width: 20%;
-        padding: 16px 12px 16px 12px;
-        line-height: 25px;
-        height: fit-content;
-        margin-top: 84px;
-    }
-
-    .bubble-quote-two:after {
-        content: '';
-        position: absolute;
-        display: block;
-        width: 0;
-        z-index: 1;
-        border-style: solid;
-        border-width: 32px 0 0 32px;
-        border-color: transparent transparent transparent #f5deb3;
-        top: 50%;
-        right: -31px;
-        margin-top: -13px;
-    }
-
-    .bubble-quote-two:before {
-        content: '';
-        position: absolute;
-        width: 0;
-        z-index: 1;
-        border-style: solid;
-        border-width: 32px 0 0 32px;
-        border-color: transparent transparent transparent #854d27;
-        top: 50%;
-        right: -32px;
-        margin-top: -15px;
-        display: block;
-    }
-
-    video {
-        width: 670px;
-        height: 480px;
-        padding-top: 0;
-        padding-bottom: 34px;
-    }
-
-    #video-tour {
-        height: 500px;
-    }
-
-    #times {
-        font-size: 180%;
-        margin: 10px 180px 10px 180px;
-    }
-
-    .contact {
-        line-height: 2.2rem;
-    }
-
-    .top {
-        font-size: 130%;
-    }
-
 }
 
 /* FAQ page */
@@ -856,37 +626,6 @@ details[open] summary:after {
 details[open] div {
     padding: .5em 1em;
     background-color: #503A26;
-}
-
-/* Media queries for FAQ section */
-
-@media screen and (min-width: 768px) {
-    .faq-container details {
-        font-size: 1.7rem;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .faq-container>div {
-        margin-inline: max(2px, 50% - 1000px/2);
-    }
-
-    .faq-container>details {
-        font-size: 2.2rem;
-        padding: 1px;
-        margin-inline: max(3px, 50% - 900px/2);
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .faq-container h1 {
-        font-size: 3rem;
-    }
-
-    .faq-container details {
-        font-size: 2.6rem;
-        margin-inline: max(3px, 50% - 1200px/2);
-    }
 }
 
 /* Signup form section */
@@ -1034,19 +773,19 @@ input[label] {
 #submit {
     display: flex;
     flex-direction: column;
-    background-color: #3B5822;
     width: fit-content;
     margin: auto;
+    padding: 6px 0;
 }
 
 .join-button {
-    width: 25%;
     padding: 10px;
     text-align: center;
     font-size: 1.3rem;
-    background-color: #3B5822;
-    color: #f5deb3;
+    background-color: #f5deb3;
+    color: #3B5822;
     display: block;
+    border: solid 3px #3B5822;
 }
 
 .join-button:hover {
@@ -1105,7 +844,7 @@ td {
     flex-direction: column;
 }
 
-/* Media queries for sign up section */
+/* Media queries for mobile (medium) 375px screen width */
 
 @media screen and (min-width: 375px) {
 
@@ -1117,6 +856,8 @@ td {
         top: 31%;
     }
 }
+
+/* Media queries for mobile (large) 425px screen width */
 
 @media screen and (min-width: 425px) {
 
@@ -1151,6 +892,114 @@ td {
         font-size: 1.2rem;
     }
 }
+
+/* Media queries for tablet/768px screen width */
+
+/* Media query for 768px - Home Page */
+
+main {
+    flex-grow: 1.5;
+}
+
+body {
+    width: auto;
+}
+
+.container {
+    font-size: 150%;
+    padding: 8px;
+}
+
+#menu {
+    font-size: 1.2rem;
+}
+
+#menu li {
+    padding: 4px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#hero-text {
+    top: 85%;
+    width: 40rem;
+}
+
+h2 {
+    font-size: 140%;
+}
+
+h3 {
+    font-size: 115%;
+}
+
+#club-ethos {
+    font-size: 1.3rem;
+}
+
+.our-club-title {
+    font-size: 200%;
+    text-shadow: 3px 3px #503A26;
+}
+
+#div-1-left-image,
+#div-1-center-image,
+#div-1-right-image {
+    height: 325px;
+    font-size: 2em;
+}
+
+.bubble-quote-one,
+.bubble-quote-two,
+.bubble-quote-three {
+    font-size: 18px;
+    width: 450px;
+}
+
+#club-times-title {
+    font-size: 3em;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+#video-tour {
+    height: 400px;
+}
+
+#times {
+    font-size: 150%;
+}
+
+.contact-footer {
+    font-size: 150%;
+}
+
+.social-media {
+    font-size: 1.7rem;
+    line-height: 170%;
+    justify-content: space-evenly;
+}
+
+.top {
+    font-size: 110%;
+}
+
+/* Media query for 768px - FAQ Page */
+
+
+@media screen and (min-width: 768px) {
+    .faq-container details {
+        font-size: 1.7rem;
+    }
+}
+
+/* Media query for 768px - Sign Up Page */
 
 @media screen and (min-width: 768px) {
     input[type=text] {
@@ -1235,6 +1084,154 @@ table {
     }
 }
 
+/* Media queries for laptop/1024px screen width */
+
+
+/* Media queries for laptop/1024px screen width - Home Page */
+
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 150%;
+    }
+
+    #menu {
+        font-size: 110%
+    }
+
+    #hero-text {
+        width: 57rem;
+        height: 4em;
+        font-size: 170%;
+    }
+
+    #club-ethos {
+        font-size: 150%;
+        text-shadow: 1px 1px black;
+        padding: 14px 40px 14px 40px;
+        line-height: 34px;
+    }
+
+    .our-club-title {
+        font-size: 260%;
+    }
+
+    .parent-1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 4px 2px 4px 4px;
+    }
+
+    #one {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding-bottom: 10px;
+    }
+
+    #two {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        padding-bottom: 10px;
+    }
+
+    #three {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding-bottom: 10px;
+    }
+
+    #div-1-left-image,
+    #div-1-center-image,
+    #div-1-right-image {
+        height: 400px;
+        font-size: 2.2em;
+        width: 75%;
+    }
+
+    .bubble-quote-one,
+    .bubble-quote-two,
+    .bubble-quote-three {
+        font-size: 20px;
+        width: 20%;
+        padding: 16px 12px 16px 12px;
+        line-height: 25px;
+        height: fit-content;
+        margin-top: 84px;
+    }
+
+    .bubble-quote-two:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 0;
+        z-index: 1;
+        border-style: solid;
+        border-width: 32px 0 0 32px;
+        border-color: transparent transparent transparent #f5deb3;
+        top: 50%;
+        right: -31px;
+        margin-top: -13px;
+    }
+
+    .bubble-quote-two:before {
+        content: '';
+        position: absolute;
+        width: 0;
+        z-index: 1;
+        border-style: solid;
+        border-width: 32px 0 0 32px;
+        border-color: transparent transparent transparent #854d27;
+        top: 50%;
+        right: -32px;
+        margin-top: -15px;
+        display: block;
+    }
+
+    video {
+        width: 670px;
+        height: 480px;
+        padding-top: 0;
+        padding-bottom: 34px;
+    }
+
+    #video-tour {
+        height: 500px;
+    }
+
+    #times {
+        font-size: 180%;
+        margin: 10px 180px 10px 180px;
+    }
+
+    .contact {
+        line-height: 2.2rem;
+    }
+
+    .top {
+        font-size: 130%;
+    }
+
+}
+
+/* Media queries for laptop/1024px screen width - FAQ Page */
+
+@media screen and (min-width: 1024px) {
+    .faq-container>div {
+        margin-inline: max(2px, 50% - 1000px/2);
+    }
+
+    .faq-container>details {
+        font-size: 2.2rem;
+        padding: 1px;
+        margin-inline: max(3px, 50% - 900px/2);
+    }
+}
+
+/* Media queries for laptop/1024px screen width - Sign Up Page */
+
 @media screen and (min-width: 1024px) {
     #signup-img {
         background-color: #3B5822;
@@ -1293,6 +1290,23 @@ table {
     }
 }
 
+/* Media queries for 1440px screen width */
+
+/* Media queries for 1440px screen width - FAQ PAGE */
+
+@media screen and (min-width: 1440px) {
+    .faq-container h1 {
+        font-size: 3rem;
+    }
+
+    .faq-container details {
+        font-size: 2.6rem;
+        margin-inline: max(3px, 50% - 1200px/2);
+    }
+}
+
+/* Media queries for 1440px screen width - SIGN UP PAGE*/
+
 @media screen and (min-width: 1440px) {
     #signup-hero-title {
         top: 86%;
@@ -1344,6 +1358,12 @@ table {
         line-height: 2.2rem;
     }
 }
+
+
+/* Media queries for screens extra-wide laptops/2560px */
+
+
+/* Media queries for screens extra-wide laptops/2560px - HOME PAGE */
 
 @media screen and (min-width: 2560px) {
 
@@ -1484,6 +1504,8 @@ table {
         font-size: 4rem;
         border-radius: 4px;
     }
+
+/* Media queries for screens extra-wide laptops/2560px - SIGNUP PAGE  */
 
     #signup-hero-title {
         top: 86%;
