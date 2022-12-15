@@ -100,6 +100,7 @@ Stammer Minecraft Club is meant to be fun, playful and welcoming with appeal to 
 
 The logo is placed alongside the page header which is visible on each page. The image selected was a creeper face which is strongly associated with Minecraft and worked well as a small image. Alternative images associated with Minecraft would not have scaled down well, so character skins or Mobs were not used. There are two facial expressions of creeper heads (sad or smiling) so the smiling version was used to indicate that this is a fun game and promote the expectation of a positive experience. For continuity, the logo was also converted to a Favicon. 
 
+[Back to top](#contents)
 ## Home Page
 
 The Home Page has information and testimonials which illustrate the experience of club members to give first-hand descriptions of the real experience of being a club member. There are images showing the creations built in Minecraft during club sessions. There is a video narrated by a club member who stammers which aims to reassure potential new members that it really is ok to stammer in the club and to hear the voice of a real member. There is a description of the club groups which shows the age range that can attend and the schedule of sessions. The images are positioned to slightly reveal the next image and entice the user to scroll down the entire page.
@@ -112,6 +113,7 @@ The Home Page has information and testimonials which illustrate the experience o
 
 ![Home Page - section 4](assets/readme-images/home-page-section-four.png)
 
+[Back to top](#contents)
 ### Navigation Menu
 
 ![Navigation Menu](assets/readme-images/nav-bar.png)
@@ -271,6 +273,7 @@ Take the following steps to create a clone of a project:
 * The framework for the readme file was inspired by a layout from a cohort peer who had received a layout template from their mentor: [lucia2007](https://github.com/lucia2007/tennis-for-all) and [Kera Cudmore README Examples](https://github.com/kera-cudmore/readme-examples).
 * Further learning about using Markdown was accessed from a cheatsheet written by [Adam Pritchard](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet).
 
+[Back to top](#contents)
 ## Media
 
 * The Favicon and title logo were taken from [Fonticon](https://fonticon.github.io/fonticon/#/select).
@@ -280,9 +283,11 @@ Take the following steps to create a clone of a project:
 * The photos were converted to webp files to reduce file size using the [Cloud Convert](https://cloudconvert.com/png-to-webp).
 * The image and video files were reduced in size by [Free Convert](https://www.freeconvert.com/).
 
+[Back to top](#contents)
 ## Acknowledgements
 * Extra help and guidance was received from my mentor Daisy McGirr, from CI tutors and fellow Code Institute students on Slack.  
 * I received help from tutors with two issues I encountered. The first was in trying to get the header logo, title and nav bar to be responsive with a column menu on small screens and a row for larger screens. The second time was for a bug on my signup page which had a skewed alignment from one side when the screen size increased.  
 * To help with planning and preparation of the assignment, I found the Code Institute library useful. the following were particularly helpful: [Milestone 1 Planning with Stephen Seagrave](https://youtu.be/06tXTbm-DxI) and [Creating your first README with Kera Cudmore](https://youtu.be/XbYJ4VlhSnY).
 * I found [Kevin Powell's videos](https://www.youtube.com/watch?v=u044iM9xsWU) helpful in understanding and applying Flexbox along with playing several rounds of [Flexbox Froggy](http://flexboxfroggy.com/).
 
+[Back to top](#contents)
