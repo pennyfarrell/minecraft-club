@@ -146,7 +146,7 @@ This section introduces three reasons for joining the club represented by testim
 
 ### Video
 
-![Video](assets/readme-images/video-screenshot.webp
+![Video](assets/readme-images/video-screenshot.webp)
 
 There is a video embedded on the home page with showing some of the Minecraft creations built by club members and narrated by a young person who stammers. This would encourage potential members to have an understanding of what to expect about the club and to feel reassured that stammering is ok (and welcomed!) in the club.  
 
