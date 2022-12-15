@@ -185,8 +185,7 @@ The application was also tested using [Google Lighthouse](https://developers.goo
 | Telephone and Email Links | When the icon or contact information is clicked, the user will be redirected to make a call or send an email to the organiser. | Clicked Telephone and Email icons | Telephone opens a op-up window with the correct phone number in it. Email opens up a new window with an email addressed to the organiser. | Pass |
 | **Home Page - Video** |
 |  |  |  |  |  |
-| Video | When clicked the video will play with sound on mute and visible controls to pause/play/turn on volume. | Clicked link | When clicked the video will play with sound on 
-mute and visible controls to pause/play/turn on volume. | Pass |
+| Video | When clicked the video will play with sound on mute and visible controls to pause/play/turn on volume. | Clicked link | When clicked the video will play with sound on mute and visible controls to pause/play/turn on volume. | Pass |
 | **FAQ Page** |
 |   |   |   |   |
 | Accordion buttons on FAQ section | When the "+" symbol is clicked, the corresponding answer appears below. The answer has a different background color to visually contrast the question and answer. | Clicked each "+" button in FAQ section  | Each answer is revealed and each answer is correctly color-coded. | Pass |
