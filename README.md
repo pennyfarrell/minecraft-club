@@ -141,11 +141,12 @@ The landing page includes a large dynamic image from the Minecraft world which s
 ![Testimonials Speech Bubble One](assets/readme-images/testimonial-speech-bubble-three.png)
 
 This section introduces three reasons for joining the club represented by testimonials from existing members (peers of potential club members). The aim is to get new members interested in joining the club and to convey the value of gaming with other young people who stammer by their peers. The quotes help make the information relevant and relatable to young people visiting the website and demonstrates the value of the club to prospective parents/guardians. A contrast issue with the image titles used in this section was flagged by WAVE and subsequently fixed (see  [_file_](TESTING.md) for more details).
+
 [Back to top](#contents)
 
 ### Video
 
-![Video](assets/video/club-tour.mp4)
+![Video](assets/readme-images/video-screenshot.webp
 
 There is a video embedded on the home page with showing some of the Minecraft creations built by club members and narrated by a young person who stammers. This would encourage potential members to have an understanding of what to expect about the club and to feel reassured that stammering is ok (and welcomed!) in the club.  
 
