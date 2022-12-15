@@ -520,14 +520,6 @@ footer {
         padding: 8px;
     }
 
-    #menu {
-        font-size: 1.2rem;
-    }
-
-    #menu li {
-        padding: 4px;
-    }
-
     ul {
         display: flex;
         flex-direction: row;
@@ -603,11 +595,11 @@ footer {
 
 @media screen and (min-width: 1024px) {
     h1 {
-        font-size: 150%;
+        font-size: 2rem;
     }
 
     #menu {
-        font-size: 110%
+        font-size: 1.8rem;
     }
 
     #hero-text {
@@ -873,6 +865,8 @@ details[open] div {
 }
 
 @media screen and (min-width: 1440px) {
+    
+    
     .faq-container h1 {
         font-size: 3rem;
     }
@@ -1103,8 +1097,9 @@ td {
 
 @media screen and (min-width: 375px) {
 
-    h1 {
-        font-size: 1.5rem;
+    #menu {
+        font-size: 1.2rem;
+        line-height: 2rem;
     }
 
     #signup-hero-title {
@@ -1121,15 +1116,7 @@ td {
 
     @media screen and (min-width: 425px) {
 
-        h1 {
-            font-size: 1.6rem;
-        }
-
-        #menu {
-            font-size: 1.2rem;
-        }
-
-        .logo {
+         .logo {
             padding-left: 8px;
         }
 
@@ -1158,6 +1145,14 @@ td {
     }
 
     @media screen and (min-width: 768px) {
+        #menu {
+            font-size: 1.4rem;
+        }
+    
+        #menu li {
+            padding: 4px;
+        }
+      
         input[type=text] {
             width: 50%;
             padding: 12px 20px;
@@ -1303,6 +1298,14 @@ td {
     }
 
     @media screen and (min-width: 1440px) {
+        .logo > h1 {
+            font-size: 3rem;
+        }
+       
+        #menu {
+        font-size: 2rem;
+       }
+       
         #signup-hero-title {
             top: 86%;
             font-size: 4.6rem;
